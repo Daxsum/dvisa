@@ -1,0 +1,298 @@
+{
+  "liveChat": "LIVE CHAT",
+  "copyright": {
+    "description": "Copyright © 2016-2023 GovAssist, LLC All Rights Reserved"
+  },
+  "nav": {
+    "title1": "Apply for the DV Lottery instantly",
+    "title2": "with GovAssist",
+    "subtitle1": "The official deadline is running, so hurry up and",
+    "subtitle2": "apply here!",
+    "days": "days",
+    "hours": "hours",
+    "minutes": "minutes",
+    "seconds": "seconds",
+    "line1": "50,000 people and their families will Live, Work and Study in USA",
+    "line2": "Your chance to LIVE, WORK & STUDY in USA",
+    "line3": "Simple",
+    "line4": "Personal support in every step",
+    "line5": "Double chance for married people to win the Green Card",
+    "link": "registration",
+    "lineContinue": "within 5 minutes",
+    "checkNow": "Check now for free!",
+    "eligibility": "Green card eligibility",
+    "fname": "First Name",
+    "lname": "Last Name",
+    "email": "Email Address",
+    "email1": "Your Email Again",
+    "school": "Yes, I finished high school OR I have qualifying training.",
+    "continue": "Continue",
+    "back": "Back",
+    "errorMsg": "Unfortunately, natives of your country of birth are not eligible for the current lottery program."
+  },
+  "footer": {
+    "text": "Disclaimer: GovAssist is not affiliated with any United States government agency or department. Costs for consulting services do NOT include any government application, medical examination, filing, or biometric fees. This website does not provide legal advice and we are not a law firm. None of our customer service representatives are lawyers and they also do not provide legal advice. We are a private, internet-based travel and immigration consultancy provider dedicated to helping individuals travel to the United States. You may apply by yourself directly at travel.state.gov or at uscis.gov. GovAssist is affiliated with the UT law firm GovAssist Legal which provides legal services on immigration matters. Only licensed immigration professionals can provide advice, explanation, opinion, or recommendation about possible legal rights, remedies, defenses, options, selection of forms or strategies.",
+    "link1": "Terms of Service",
+    "link2": "Privacy Policy",
+    "link3": "Legal Disclaimer",
+    "link4": "Refund Policy",
+    "link5": "Terms of Use"
+  },
+  "subscribe": {
+    "title": "Let's keep in touch for news",
+    "description": "Subscribe to be the first do receive updates and be in advantage on your application proccess",
+    "placeholder": "your email here",
+    "btnText": "Subscribe"
+  },
+  "reviews": {
+    "title": "Our Jobs Speaks for Ourselves",
+    "items": [
+      {
+        "id": 0,
+        "author": "Jelena Pavlovic",
+        "location": "BA",
+        "date": "Sep 7, 2023",
+        "title": "Highly Recommend",
+        "text": "We contacted GovAssist because we needed help applying for a green card as a spouse of a US citizen. MacKenzie ,Chad and the entire team were fast, efficient, kind,patient, knowledgeable and took care of the entire green card application process, helping us with filling out all the paperwork, taking care of payments, filing the application with USCIS and even taking care of the online UScIS account and helping us sign up when we were having trouble navigating the page. They also kept us updated during the entire process, which took about a year and 4 months. Prior to deciding to go with Govassist, we called and saw other lawyers , who were asking more than double for the services and charged us for any piece of advice they gave. We are so happy to have found Govassist Legal and that we went with them instead.<br />We would definitely recommend Govassist Legal to anyone seeking help with immigration services.<br />              ",
+        "experience": "September 07, 2023",
+        "link": "https://www.trustpilot.com/reviews/64f9f51b0bedc4bb36e0bd8b"
+      },
+      {
+        "id": 1,
+        "author": "Yeonseo Choi",
+        "location": "KR",
+        "date": "Jun 8, 2023",
+        "title": "The right choice for your Immigration needs",
+        "text": "We first made contact with GovAssist on or about 30 May 2023 and have had an outstanding experience since then. We have dealt with immigration organizations in the past and GovAssist is by far the most professional Immigration organization we have had the pleasure of working with. We definitely give them a rating of five (5)stars out of 5. They're the best. An extremely trustworthy organization.",
+        "experience": "May 30, 2023",
+        "link": "https://www.trustpilot.com/users/6481ca53107fe50012c018f0"
+      },
+      {
+        "id": 2,
+        "author": "Christopher Espinel",
+        "location": "US",
+        "date": "Nov 5, 2022",
+        "title": "My experience with govassistlegal.com…",
+        "text": "My experience with govassistlegal.com was a positive one. They were very helpful to my situation.",
+        "experience": "September 27, 2022",
+        "link": "https://www.trustpilot.com/users/6365595a7ce2f200139593cf"
+      },
+      {
+        "id": 3,
+        "author": "TAYLOR",
+        "location": "US",
+        "date": "Jul 6, 2023",
+        "title": "Quick and affordable!",
+        "text": "<br />              MacKenzie and the rest of Govassist legal staff were on the ball for the petition on my behalf for adjustment of status. They were prompt, direct, upbeat, and very affordable. They were able to have our paperwork filled out just as fast as we got our information to them. They helped me with adjustment of status from student visa to permanent resident. I can’t stress how helpful they were with the entire process. I was a little apprehensive about their low price at first and I wrongly assumed that I would end up needing to fill out a greater portion of the application myself to accommodate, but I was shocked at how little I ended up having to do on my end. It was a cakewalk. My adjustment of status/green card application was received by USCIS on April 21, 2023 and approved on June 23, 2023. I received my green card in the mail July 3 2023. It would not have<br />Happened so quickly without them and I happily refer them to anyone looking for a very affordable legal team. Again, I would highly recommend this effective and efficient team.<br />              ",
+        "experience": "July 03, 2023",
+        "link": "https://www.trustpilot.com/users/62c0bda593d40600137aeb5b"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Find the right visa for you!",
+    "section1": {
+      "qname": "Diversity Visa Cost",
+      "title": "Mandatory Government Fees for Green Cards",
+      "btnText": "Apply now",
+      "line11": "Fee Type",
+      "line12": "Cost (to Applicant Living in the U.S.)",
+      "line13": "Cost (to Applicant Living Abroad)",
+      "line21": "Family Sponsorship Form",
+      "line21Link": "(I-130)",
+      "line22": "$535",
+      "line23": "$535",
+      "line31": "Green Card Application Form",
+      "line31Link": "(I-485)",
+      "line32": "$1140",
+      "line33": "Not Required",
+      "line41": "Financial Support Form",
+      "line41Link": "(I-864)",
+      "line42": "$0",
+      "line43": "$120",
+      "line51": "Work Permit Application Form",
+      "line51Link": "(I-765)",
+      "line52": "$0",
+      "line53": "Not Required",
+      "line61": "Travel Permit Application Form",
+      "line61Link": "(I-131)",
+      "line62": "$0",
+      "line63": "Not Required",
+      "line71": "(Fingerprints & Photo)",
+      "line71Link": "Biometrics",
+      "line72": "$85",
+      "line73": "$0",
+      "line81": "",
+      "line81Link": "State Department Processing",
+      "line82": "Not Required",
+      "line83": "$325",
+      "line91": "",
+      "line91Link": "USCIS Immigrant Fee",
+      "line92": "Not Required",
+      "line93": "$220",
+      "line101": "",
+      "line101Link": "Medical Examination",
+      "line102": "*Varies",
+      "line103": "*Varies",
+      "line111": "Total",
+      "line111Link": "",
+      "line112": "$1760",
+      "line113": "$1200",
+      "calc": "Fees are subject to change, please use",
+      "calcLink": "this calculator"
+    },
+    "section2": {
+      "qname": "Diversity Visa Timeline",
+      "title": "The 2023 Green Card Lottery program year (also called DV2025) follows:",
+      "btnText": "Apply now",
+      "line11": "Status",
+      "line12": "Information",
+      "line13": "Dates",
+      "line21": "Submission",
+      "line22": "Applicants apply for this year's lottery,<br /> the DV2025 program",
+      "line23": "Until November 8, 2023.",
+      "line31": "Lottery",
+      "line32": "The DV2025 Lottery Draw is conducted by using a random computerized lottery draw.",
+      "line33": "March 2024",
+      "line41": "Result",
+      "line42": "The DV2025 lottery results are made public  and applicants can check online if they were selected.",
+      "line43": "May 8, 2024",
+      "line51": "Process",
+      "line52": "Winners apply for their Green Card and pay the fee.",
+      "line53": "-",
+      "line61": "Entry",
+      "line62": "Applicants who won the Green Card Lottery and successfully received the visa, may enter the United States of America at any time in the year 2025 as permanent residents (hence the name DV2025).",
+      "line63": "-"
+    },
+    "section3": {
+      "title": "Diversity Visa FAQs",
+      "html": "\n        <div><span style=\"display: block; margin-top: 30px; color: black; font-size: 16px; font-family: Inter; font-weight: 700; word-wrap: break-word\">U.S. Visa lottery FAQs</span><span style=\"color: black; font-size: 16px; font-family: Inter; font-weight: 300; word-wrap: break-word\">The Diversity Immigrant Visa Program is a lottery-style draw administered by the Department of State, where natives of countries with historically low rates of immigration to the United States are randomly selected for a diversity visa.<br/>There are a limited number of diversity visas distributed in any one fiscal year. For the DV-2020 US Visa Lottery there will be 50,000 such visas made available to natives from a number of different foreign regions, where 2020 refers to the year where successful entrants can enter the United States.<br/><br/></span><span style=\"color: black; font-size: 16px; font-family: Inter; font-weight: 700; word-wrap: break-word\">What are your chances in the Diversity Immigrant Visa Program?<br/></span><span style=\"color: black; font-size: 16px; font-family: Inter; font-weight: 300; word-wrap: break-word\">As a non-US national it is possible to obtain lawful permanent residence in the United States by entering the US Visa Lottery. While in no way guaranteed, the following guide tells you how to go about obtaining a lottery-style green card, courtesy of what’s officially known as the Diversity Immigrant Visa Program.<br/></span><span style=\"color: black; font-size: 16px; font-family: Inter; font-weight: 700; word-wrap: break-word\"><br />Who is eligible to apply for the US visa lottery?<br/></span><span style=\"color: black; font-size: 16px; font-family: Inter; font-weight: 300; word-wrap: break-word\">Enrolment into the US visa lottery is open to all individuals worldwide who meet the following two entry requirements:<br/></span><span style=\"color: black; font-size: 16px; font-family: Inter; font-weight: 300; word-wrap: break-word\">You must be a native of a qualifying country<br/>You must meet an education or work experience requirement.<br/></span><span style=\"color: black; font-size: 16px; font-family: Inter; font-weight: 300; word-wrap: break-word\"><br/></span><span style=\"color: black; font-size: 16px; font-family: Inter; font-weight: 600; word-wrap: break-word\">Native Of A Qualifying Country<br/></span><span style=\"color: black; font-size: 16px; font-family: Inter; font-weight: 300; word-wrap: break-word\">Under US immigration law, the list of eligible countries are limited to those from which fewer than 50,000 natives in various visa categories immigrated to the United States during the previous five years.<br/>The list of eligible countries for each year’s US visa lottery is modified on the sole basis of this five year calculation, where people born in countries with high immigration rates are excluded from the program.<br/>For the US Visa Lottery DV- 2020 more than 50,000 natives of the following countries immigrated to the United States in the previous five years and, as such, are ineligible:<br/>Bangladesh, Brazil, Canada, China (mainland born), Colombia, Dominican Republic, El Salvador, Haiti, India, Jamaica, Mexico, Nigeria, Pakistan, Peru, Philippines, South Korea, the UK (except Northern Ireland) and its dependent territories, and Vietnam.<br/>A ‘native’ means someone born in a particular country, regardless of the individual’s current nationality or country of residence. Accordingly, eligibility is determined by the country of your birth, and not based on your country of citizenship or where you currently reside.<br/>In the event that you were born in one of the non-qualifying countries, you may in limited circumstances still be able to participate in the US Visa Lottery based on the country of birth of your parents or spouse.<br/><br/></span><span style=\"color: black; font-size: 16px; font-family: Inter; font-weight: 700; word-wrap: break-word\">Education Or Work Experience Requirement<br/></span><span style=\"color: black; font-size: 16px; font-family: Inter; font-weight: 300; word-wrap: break-word\">Each US Visa Lottery entrant must also meet the education or work experience requirement by having either:<br/></span><span style=\"color: black; font-size: 16px; font-family: Inter; font-weight: 300; word-wrap: break-word\">Completed at least a US high school education or its foreign equivalent, defined as the successful completion of a twelve year course of formal elementary and secondary education, or<br/>Obtained two years work experience within the past five years in an occupation that requires at least two years of training or experience. The US Department of Labor’s O*NET Online database will be used to determine qualifying work experience.<br/></span><span style=\"color: black; font-size: 16px; font-family: Inter; font-weight: 300; word-wrap: break-word\">There is no minimum age to apply for the US Visa Lottery, although the requirement of a high school education or work experience will effectively disqualify most persons who are under the age of 18.<br/><br/></span><span style=\"color: black; font-size: 16px; font-family: Inter; font-weight: 700; word-wrap: break-word\">How do I apply for the US visa lottery?<br/></span><span style=\"color: black; font-size: 16px; font-family: Inter; font-weight: 300; word-wrap: break-word\">To enter the US visa lottery you must do so via the Electronic Diversity Visa Lottery website (www.dvlottery.state.gov). The law allows only one entry per person during the registration period, where individuals who submit more than one entry will be disqualified.<br/>To complete your US Visa Lottery entry you must provide your personal and contact details. You must also list any eligible spouse and children under 21, unless they are already a US citizen or lawful permanent resident, regardless of whether they are living with you or intend to immigrate alongside you.<br/>Failure to list any eligible spouse or children, or listing someone who is not in fact your spouse or child, is grounds for disqualification. Although the US Visa Lottery is limited to one entry per person, each spouse may submit their own entry if each meets the eligibility requirements. If either spouse is selected, the other is entitled to apply as a dependant.<br/>All entrants must enrol with a recent visa-compliant photo, taken within the last six months, as well as a photograph of any eligible spouse and children. Submitting the same photograph that was submitted with a prior year’s entry will result in disqualification from the US visa lottery.<br/>Having registered, you must print and retain your confirmation page so that you will be able to check your entry status online. It is crucial that you retain a record of your unique confirmation number, as this is the only way to check whether your entry has been selected. You will not otherwise be notified.<br/>Successful entrants will be directed to a confirmation page providing instructions on how to apply for a visa, including information about fees connected with that application.<br/><br/></span><span style=\"color: black; font-size: 16px; font-family: Inter; font-weight: 700; word-wrap: break-word\">What does the US visa lottery allow?<br/></span><span style=\"color: black; font-size: 16px; font-family: Inter; font-weight: 300; word-wrap: break-word\">Being randomly chosen in the US visa lottery does not guarantee that you will receive a diversity visa. Rather, selection means that you are eligible to apply for a visa, together with any qualifying family members.<br/>Applicants who are selected in the US Visa Lottery must still meet the strict eligibility requirements to go on to qualify for a diversity visa. However, you will only need to provide documentary proof of your native country, education and/or work experience if you are selected.<br/>In order to immigrate, selectees must also be admissible to the United States. Both the online immigrant visa application form and the consular officer, during interview, will ask you questions about your eligibility to immigrate under US law, including questions about criminal and security related topics.<br/>Although there is no fee to enter the US Visa Lottery, successful entrants who wish to apply for a visa must pay all application fees and associated costs for themselves and any qualifying family members.<br/>You must also prove that you will be able to support yourself and your family once you are living in the US, for example, in the form of personal assets, an affidavit of support from a relative or friend residing in the US, or an offer of employment from a US employer. Immigration under the US Visa Lottery does not entitle you to any financial or settlement assistance.<br/><br/></span><span style=\"color: black; font-size: 16px; font-family: Inter; font-weight: 700; word-wrap: break-word\">What are the odds for the US visa lottery?<br/></span><span style=\"color: black; font-size: 16px; font-family: Inter; font-weight: 300; word-wrap: break-word\">The US Visa Lottery is drawn from random computerised selection from among qualified entries across six geographic regions, although no single country may receive more than 7% of the available diversity visas in any one year.<br/>Given the likelihood that some of the first 50,000 persons selected in the US Visa Lottery will not qualify for a diversity visa, or pursue their cases to visa issuance, more than 50,000 entries will be initially selected to ensure that the Department of State issues all available visas.<br/>The number of visas eventually issued to natives of each country will depend on the regional limits established, how many entrants come from each country and how many of the selected entrants are found eligible. However, all entries received within each region will have an equal chance of being selected.<br/>Each month, diversity visas will be issued to applicants who are eligible for issuance during that month, as long as visas are still available. Once all of the available visas have been issued, the program will end for that year. As visa numbers could be exhausted quickly, successful entrants should be prepared to act promptly.<br/><br/></span><span style=\"color: black; font-size: 16px; font-family: Inter; font-weight: 700; word-wrap: break-word\">What are the timescales for the US visa lottery?<br/></span><span style=\"color: black; font-size: 16px; font-family: Inter; font-weight: 300; word-wrap: break-word\">There is a limited timeframe each year to enter the US Visa Lottery. For the DV-2020 lottery the registration period ran from 3 October 2018 to 6 November 2018, where no late entries will be accepted. Any new entrants will now need to wait until 2019 to apply for the US visa lottery DV-2021.<br/>If you have applied for the US Visa Lottery DV-2020 you can check the status of your entry from 7 May 2019 onwards. Interviews will begin in October 2019 for successful entrants who have submitted all pre-interview paperwork and other information as requested in the notification instructions.<br/>Selectees will be informed of their visa interview appointment through the online entry status check four to six weeks before their scheduled interview.<br/>All selectees, including family members, must be issued visas by 30 September 2020. The Department of State will not be able to issue a diversity visa after this date, nor can family members obtain a diversity visa to join the principal applicant in the US after this date.<br/>This article does not constitute direct legal advice and is for informational purposes only.</span></div>\n\n"
+    }
+  },
+  "ty": {
+    "title": "DV Lottery Form Completed",
+    "question1": "PERMANENT LINK TO THE FORM",
+    "answer1": "Click in Copy Link to share you completed form with your family or advisors.",
+    "btnText1": "COPY LINK",
+    "question2": "DOWNLOAD PDF FILE",
+    "answer2": "Download the completed form in PDF, which you can print out or send by email and use as an example when applying for the actual Diversity Visa Lottery on the official website.",
+    "btnText2": "DOWNLOAD PDF"
+  },
+  "fp": {
+    "title1": "Electronic",
+    "title2": "diversity visa",
+    "title3": "entry form",
+    "description": "Here you will fill all your information to reach your dream.",
+    "deadline": "10 minutes to finish",
+    "description2": "Attention: Please take the time to carefully fill out this Green Card Lottery application form. If any information is missing or requires clarification, a member of GovAssist will reach out to you. Ensure you monitor your contact methods and be on the lookout for any communications from us. Your attention to detail is crucial for a smooth application process.",
+    "titleRight": "Are you ready to begin?",
+    "btnText": "Start!"
+  },
+  "quiz": {
+    "menu": {
+      "name": "Name",
+      "contact": "Contact Information",
+      "gender": "Gender",
+      "birth": "Birth Information",
+      "country": "Country of Eligibility",
+      "photo": "Photograph",
+      "mail": "Mailing Address",
+      "additional": "Additional information",
+      "payment": "Payment"
+    },
+    "form": {
+      "lname": "Last/Family Name",
+      "fname": "First Name",
+      "mname": "Middle Name",
+      "phone": "Phone number",
+      "email": "E-mail Address",
+      "email1": "Confirm e-mail Address",
+      "gender": {
+        "name": "Gender",
+        "male": "Male",
+        "female": "Female"
+      },
+      "date": "Birth Date",
+      "country": "Country Where You Were Born",
+      "eligibility": {
+        "name": "Are you claiming eligibility based on the country where you were born?",
+        "yes": "Yes",
+        "not": "Not"
+      },
+      "notEligibility": "If not, you must enter the country from wich you are claiming eligibility.",
+      "photo": {
+        "first": {
+          "label": "Entrant Photograph",
+          "description": "Photographs must be submitted at the time of eDV entry. Photographs that do not comply with all specifications, including but not limited to recency of the photos, composition of the photos, and unacceptable backgrounds are grounds for disqualification of the entire entry. Any manipulation of photographs that alters the facial characteristics is grounds for disqualification of the entire entry. <br /> <br /><div /><div />\n \n You will use one of the following methods to enter the image into eDV:\n - Take a new digital image, \n - Use a digital scanner to scan a submitted photograph.",
+          "btnText": "Proceed"
+        },
+        "second": {
+          "label": "Submit your photo",
+          "description": "Your photo digital image must be:",
+          "btnText": "Proceed",
+          "btn2Text": "Upload photo",
+          "btn3Text": "I'll do it later",
+          "line1": "Square proportion 600x600 pixels",
+          "line2": "Recent taken photos",
+          "line3": "In color",
+          "line4": "White background",
+          "line5": "No selfies and filters on the photo",
+          "example": "Example"
+        }
+      },
+      "inCareOf": "Name of person who will receive your correspondence (optional)",
+      "shipping": {
+        "address1": "Address Line 1",
+        "address2": "Address Line 2",
+        "postal": "Postal Code/Zip Code",
+        "region": "Region/Province/State",
+        "country": "Country Where You Were Born"
+      },
+      "school": {
+        "description": "You must have a minimum of a high school diploma reflecting the completion of a full course of study (vocation schools or equivalency degrees are not acceptable) or be a skilled worker in an occupation that requires at least two years of training or experience to qualify (visit http://www.onetonline.org/ to see if your occupation qualifies) for a Diversity Visa.",
+        "label": "What is the highest level of education you have achieved, as of today?",
+        "choice1": "Primary School only",
+        "choice2": "High School, no degree",
+        "choice3": "High School degree",
+        "choice4": "Vocational School",
+        "choice5": "Some University Courses",
+        "choice6": "University Degree",
+        "choice7": "Some Graduate Level Courses",
+        "choice8": "Master's Degree",
+        "choice9": "Some Doctorate Level Courses",
+        "choice10": "Doctorate Degree"
+      },
+      "marital": {
+        "label": "What is your current marital status?",
+        "description": "Legal separation is an arrangement when a couple remain married but live apart, following a court order. If you and your spouse are legally separated, your spouse will not be able to immigrate with you through the Diversity Visa program. You will not be penalized if you choose to enter the name of a spouse from whom you are legally separated. <div></div> If you are not legally separated by a court order, you must include your spouse even if you plan to be divorced before you apply for the Diversity Visa. Failure to list your eligible spouse is grounds for disqualification.<div></div>If your spouse is a U.S. citizen or Lawful Permanent Resident, do not list him/her in your entry.",
+        "choice1": "Unmarried",
+        "choice2": "Married and my spouse is NOT a U.S.citizen or U.S. Lawful Permanent Resident (LPR)",
+        "choice3": "Married and my spouse IS a U.S.citizen or U.S. Lawful Permanent Resident (LPR)",
+        "choice4": "Divorced",
+        "choice5": "Widowed",
+        "choice6": "Legally Separated"
+      }
+    }
+  },
+  "services": {
+    "title1": "Choose your",
+    "title2": "services",
+    "offer1": "Standard",
+    "offer2": "package",
+    "offer3": "Full",
+    "offer4": "package",
+    "line1": "Guaranteed participation in the lottery",
+    "line2": "Individual + personal support",
+    "line3": "Applications accepted year-round",
+    "line4": "Applications individually reviewed",
+    "line5": "Applications submitted correctly and on time to the U.S. authorities",
+    "line6": "Certificate of participation",
+    "line7": "Personal customer log-in account",
+    "line8": "Comprehensive winner's guide",
+    "line9": "Standard support for winners",
+    "line10": "Preparation for the Green Card interview",
+    "line11": "Green Card and Social Security delivery service to our US address free of charge",
+    "line12": "Completion of the online DS-260 form",
+    "line13": "Preparation of application documents in case of win"
+  }
+}

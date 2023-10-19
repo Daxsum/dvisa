@@ -1,0 +1,298 @@
+{
+  "liveChat": "دردشة مباشرة",
+  "copyright": {
+    "description": "حقوق الطبع والنشر © 2016-2023 GovAssist, LLC جميع الحقوق محفوظة"
+  },
+  "nav": {
+    "title1": "على قرعة تأشيرة التنوع على الفور باستخدام",
+    "title2": "تقدم بطلب للحصول GovAssist",
+    "subtitle1": "الرسمي يقترب، لذا أسرع قدم طلبك هنا",
+    "subtitle2": "الموعد!",
+    "days": "أيام",
+    "hours": "ساعات",
+    "minutes": "دقائق",
+    "seconds": "ثواني",
+    "line1": "سيعيش ويعمل ويدرس 50.000 شخص وعائلاتهم في الولايات المتحدة الأمريكية",
+    "line2": "فرصتك للعيش والعمل والدراسة في الولايات المتحدة الأمريكية.",
+    "line3": "بسهولة خلال 5 دقائق.",
+    "line4": "الدعم الشخصي في كل خطوة",
+    "line5": "فرصة مضاعفة للمتزوجين للفوز بالبطاقة الخضراء .",
+    "link": "التسجيل",
+    "lineContinue": "يمكنك",
+    "checkNow": "تحقق الآن مجانا!",
+    "eligibility": "أهلية البطاقة الخضراء",
+    "fname": "الاسم الأول",
+    "lname": "اسم العائلة",
+    "email": "عنوان البريد الإلكتروني",
+    "email1": "البريد الإلكتروني الخاص بك مرة أخرى",
+    "school": "نعم، لقد أنهيت دراستي الثانوية أو حصلت على تدريب مؤهل.",
+    "continue": "يكمل",
+    "back": "Back",
+    "errorMsg": "Unfortunately, natives of your country of birth are not eligible for the current lottery program."
+  },
+  "footer": {
+    "text": "إخلاء المسؤولية: لا تتبع GovAssist أي وكالة أو إدارة حكومية بالولايات المتحدة. لا تشمل تكاليف الخدمات الاستشارية أي طلب حكومي أو فحص طبي أو حفظ ملفات أو رسوم بيومترية. هذا الموقع لا يقدم المشورة القانونية ونحن لسنا مكتب محاماة. لا أحد من ممثلي خدمة العملاء لدينا محامين، كما أنهم لا يقدمون المشورة القانونية. نحن شركة خاصة تقدم استشارات السفر والهجرة عبر الإنترنت ونكرس جهودنا لمساعدة الأفراد على السفر إلى الولايات المتحدة. يمكنك التقديم بنفسك مباشرةً على موقع travel.state.gov أو على uscis.gov. GovAssist تابعة لشركة المحاماة UT GovAssist Legal التي تقدم الخدمات القانونية في مسائل الهجرة. يمكن لمحترفي الهجرة المرخصين فقط تقديم المشورة أو التفسير أو الرأي أو التوصية بشأن الحقوق القانونية المحتملة أو سبل الانتصاف أو الدفاعات أو الخيارات أو اختيار النماذج أو الاستراتيجيات .",
+    "link1": "شروط الخدمة",
+    "link2": "سياسة الخصوصية",
+    "link3": "إخلاء المسؤولية القانونية",
+    "link4": "سياسة الاسترجاع",
+    "link5": "شروط الاستخدام"
+  },
+  "subscribe": {
+    "title": "دعونا نبقى على اتصال للحصول على الأخبار",
+    "description": "اشترك لتكون أول من يتلقى التحديثات وتكون في ميزة عملية تقديم الطلب الخاص بك",
+    "placeholder": "البريد الإلكتروني الخاص بك هنا",
+    "btnText": "يشترك"
+  },
+  "reviews": {
+    "title": "وظائفنا تتحدث عن أنفسنا",
+    "items": [
+      {
+        "id": 0,
+        "author": "Jelena Pavlovic",
+        "location": "BA",
+        "date": "Sep 7, 2023",
+        "title": "Highly Recommend",
+        "text": "We contacted GovAssist because we needed help applying for a green card as a spouse of a US citizen. MacKenzie ,Chad and the entire team were fast, efficient, kind,patient, knowledgeable and took care of the entire green card application process, helping us with filling out all the paperwork, taking care of payments, filing the application with USCIS and even taking care of the online UScIS account and helping us sign up when we were having trouble navigating the page. They also kept us updated during the entire process, which took about a year and 4 months. Prior to deciding to go with Govassist, we called and saw other lawyers , who were asking more than double for the services and charged us for any piece of advice they gave. We are so happy to have found Govassist Legal and that we went with them instead.<br />We would definitely recommend Govassist Legal to anyone seeking help with immigration services.<br />              ",
+        "experience": "September 07, 2023",
+        "link": "https://www.trustpilot.com/reviews/64f9f51b0bedc4bb36e0bd8b"
+      },
+      {
+        "id": 1,
+        "author": "Yeonseo Choi",
+        "location": "KR",
+        "date": "Jun 8, 2023",
+        "title": "The right choice for your Immigration needs",
+        "text": "We first made contact with GovAssist on or about 30 May 2023 and have had an outstanding experience since then. We have dealt with immigration organizations in the past and GovAssist is by far the most professional Immigration organization we have had the pleasure of working with. We definitely give them a rating of five (5)stars out of 5. They're the best. An extremely trustworthy organization.",
+        "experience": "May 30, 2023",
+        "link": "https://www.trustpilot.com/users/6481ca53107fe50012c018f0"
+      },
+      {
+        "id": 2,
+        "author": "Christopher Espinel",
+        "location": "US",
+        "date": "Nov 5, 2022",
+        "title": "My experience with govassistlegal.com…",
+        "text": "My experience with govassistlegal.com was a positive one. They were very helpful to my situation.",
+        "experience": "September 27, 2022",
+        "link": "https://www.trustpilot.com/users/6365595a7ce2f200139593cf"
+      },
+      {
+        "id": 3,
+        "author": "TAYLOR",
+        "location": "US",
+        "date": "Jul 6, 2023",
+        "title": "Quick and affordable!",
+        "text": "<br />              MacKenzie and the rest of Govassist legal staff were on the ball for the petition on my behalf for adjustment of status. They were prompt, direct, upbeat, and very affordable. They were able to have our paperwork filled out just as fast as we got our information to them. They helped me with adjustment of status from student visa to permanent resident. I can’t stress how helpful they were with the entire process. I was a little apprehensive about their low price at first and I wrongly assumed that I would end up needing to fill out a greater portion of the application myself to accommodate, but I was shocked at how little I ended up having to do on my end. It was a cakewalk. My adjustment of status/green card application was received by USCIS on April 21, 2023 and approved on June 23, 2023. I received my green card in the mail July 3 2023. It would not have<br />Happened so quickly without them and I happily refer them to anyone looking for a very affordable legal team. Again, I would highly recommend this effective and efficient team.<br />              ",
+        "experience": "July 03, 2023",
+        "link": "https://www.trustpilot.com/users/62c0bda593d40600137aeb5b"
+      }
+    ]
+  },
+  "faq": {
+    "title": "ابحث عن التأشيرة المناسبة لك!",
+    "section1": {
+      "qname": "تكلفة تأشيرة التنوع",
+      "title": "تكلفة تأشيرة التنوع",
+      "btnText": "قدم الآن",
+      "line11": "نوع الرسوم",
+      "line12": "التكلفة (لتقديم طلب العيش في الولايات المتحدة.S.)",
+      "line13": "التكلفة (لمقدم الطلب الذي يعيش في الخارج)",
+      "line21": "نموذج رعاية الأسرة",
+      "line21Link": "(I-130)",
+      "line22": "$535",
+      "line23": "$535",
+      "line31": "نموذج طلب البطاقة الخضراء",
+      "line31Link": "(I-485)",
+      "line32": "$1140",
+      "line33": "غير مطلوب",
+      "line41": "نموذج الدعم المالي",
+      "line41Link": "(I-864)",
+      "line42": "$0",
+      "line43": "$120",
+      "line51": "نموذج طلب تصريح عمل",
+      "line51Link": "(I-765)",
+      "line52": "$0",
+      "line53": "غير مطلوب",
+      "line61": "نموذج طلب تصريح السفر",
+      "line61Link": "(I-131)",
+      "line62": "$0",
+      "line63": "غير مطلوب",
+      "line71": "(بصمات الأصابع والصور)",
+      "line71Link": "القياسات الحيوية",
+      "line72": "$85",
+      "line73": "$0",
+      "line81": "",
+      "line81Link": "معالجة وزارة الخارجية",
+      "line82": "غير مطلوب",
+      "line83": "$325",
+      "line91": "",
+      "line91Link": "رسوم الهجرة التابعة لإدارة خدمات المواطنة والهجرة في الولايات المتحدة",
+      "line92": "غير مطلوب",
+      "line93": "$220",
+      "line101": "",
+      "line101Link": "الفحص الطبي",
+      "line102": "* يختلف",
+      "line103": "* يختلف",
+      "line111": "المجموع",
+      "line111Link": "",
+      "line112": "$1760",
+      "line113": "$1200",
+      "calc": "الرسوم عرضة للتغيير، يرجى استخدام",
+      "calcLink": "هذه الآلة الحاسبة"
+    },
+    "section2": {
+      "qname": "الجدول الزمني لتأشيرة التنوع",
+      "title": "يتبع عام برنامج يانصيب البطاقة الخضراء 2023 (المعروف أيضًا باسم DV2025):",
+      "btnText": "قدم الآن",
+      "line11": "حالة",
+      "line12": "معلومة",
+      "line13": "بلح",
+      "line21": "استسلام",
+      "line22": "يتقدم المتقدمون بطلب للحصول على قرعة هذا العام، برنامج DV2025",
+      "line23": "حتى 8 نوفمبر 2023.",
+      "line31": "اليانصيب",
+      "line32": "يتم إجراء قرعة اليانصيب DV2025 باستخدام سحب اليانصيب العشوائي المحوسب .",
+      "line33": "مارس 2024",
+      "line41": "نتيجة",
+      "line42": "يتم الإعلان عن نتائج يانصيب DV2025 ويمكن للمتقدمين التحقق عبر الإنترنت مما إذا تم اختيارهم .",
+      "line43": "8 مايو 2024",
+      "line51": "عملية",
+      "line52": "يتقدم الفائزون بطلب للحصول على البطاقة الخضراء الخاصة بهم ويدفعون الرسوم.",
+      "line53": "-",
+      "line61": "دخول",
+      "line62": "يمكن للمتقدمين الذين فازوا في يانصيب البطاقة الخضراء وحصلوا على التأشيرة بنجاح، دخول الولايات المتحدة الأمريكية في أي وقت في عام 2025 كمقيمين دائمين (ومن هنا الاسم DV2025).",
+      "line63": "-"
+    },
+    "section3": {
+      "title": "الأسئلة الشائعة حول تأشيرة التنوع",
+      "html": "<div style=\"width: 1369px\"><span style=\"color: black; font-size: 16px; font-family: Inter; font-weight: 700; word-wrap: break-word\">أسئلة شائعة حول قرعة تأشيرة الولايات المتحدة<br/></span><span style=\"color: black; font-size: 16px; font-family: Inter; font-weight: 400; word-wrap: break-word\"><br/>برنامج تأشيرة المهاجرين المتنوعين هو سحب يجري على غرار اليانصيب يُديره وزارة الخارجية، حيث يتم اختيار الأشخاص الأصليين من البلدان التي شهدت تاريخيًا معدلات منخفضة من الهجرة إلى الولايات المتحدة عشوائيًا للحصول على تأشيرة متنوعة.<br/>هناك عدد محدود من تأشيرات التنوع تُوزع في أي سنة مالية واحدة. بالنسبة لقرعة تأشيرة الولايات المتحدة DV-2020، ستتاح 50,000 تأشيرة من هذا النوع للأشخاص الأصليين من مناطق أجنبية متنوعة مختلفة، حيث يشير العام 2020 إلى العام الذي يمكن فيه للمشاركين الناجحين دخول الولايات المتحدة.<br/><br/>ما هي فرصك في برنامج تأشيرة المهاجرين المتنوعين؟<br/>بصفتك غير مواطن أمريكي، يُمكنك بالإمكان الحصول على إقامة دائمة شرعية في الولايات المتحدة من خلال المشاركة في قرعة تأشيرة الولايات المتحدة. على الرغم من عدم ضمان الحصول عليها بأي شكل من الأشكال، إلا أن الدليل التالي يُخبرك كيفية الحصول على بطاقة خضراء على غرار اليانصيب بموجب ما يُعرف رسميًا ببرنامج تأشيرة المهاجرين المتنوعين.<br/><br/>من هم المؤهلون للتقديم لقرعة تأشيرة الولايات المتحدة؟<br/>التسجيل في قرعة تأشيرة الولايات المتحدة متاح لجميع الأفراد في جميع أنحاء العالم الذين يستوفون المتطلبات الأساسية التالية:<br/>1. يجب أن تكون أصليًا من بلد مؤهل.<br/>2. يجب أن تستوفي متطلب التعليم أو خبرة العمل.<br/><br/>الأصل من بلد مؤهل<br/>بموجب قانون الهجرة الأمريكي، تكون القائمة بالبلدان المؤهلة محدودة لتلك البلدان التي هاجر منها أقل من 50,000 مواطن في فئات تأشيرات متنوعة إلى الولايات المتحدة خلال الخمس سنوات السابقة.<br/>تُعد قائمة البلدان المؤهلة لقرعة تأشيرة الولايات المتحدة لكل سنة معدلة استنادًا فقط إلى هذا الحساب لمدة خمس سنوات، حيث يتم استبعاد الأشخاص الذين وُلدوا في البلدان التي تشهد معدلات عالية من الهجرة من البرنامج.<br/>بالنسبة لقرعة تأشيرة الولايات المتحدة DV-2020، قد هاجر أكثر من 50,000 مواطن من البلدان التالية إلى الولايات المتحدة خلال الخمس سنوات السابقة وبالتالي لا يحق لهم المشاركة:<br/>1. بنجلاديش<br/>2. البرازيل<br/>3. كندا<br/>4. الصين (من وُلد في البر الرئيسي)<br/>5. كولومبيا<br/>6. جمهورية الدومينيكان<br/>7. السلفادور<br/>8. هايتي<br/>9. الهند<br/>10. جامايكا<br/>11. المكسيك<br/>12. نيجيريا<br/>13. باكستان<br/>14. بيرو<br/>15. الفلبين<br/>16. كوريا الجنوبية<br/>17. المملكة المتحدة (باستثناء أيرلندا الشمالية) وأقاليمها التابعة<br/>18. فيت</span></div>"
+    }
+  },
+  "ty": {
+    "title": "تم إكمال نموذج يانصيب DV",
+    "question1": "رابط دائم للنموذج",
+    "answer1": "انقر فوق \"نسخ الرابط\" لمشاركة النموذج المكتمل مع عائلتك أو مستشاريك .",
+    "btnText1": "نسخ الوصلة",
+    "question2": "تحميل ملف pdf",
+    "answer2": "قم بتنزيل النموذج المكتمل بصيغة PDF، والذي يمكنك طباعته أو إرساله عبر البريد الإلكتروني واستخدامه كمثال عند التقدم بطلب للحصول على يانصيب تأشيرة التنوع الفعلي على الموقع الرسمي.",
+    "btnText2": "تحميل PDF"
+  },
+  "fp": {
+    "title1": "نموذج دخول ",
+    "title2": "تأشيرة التنوع الإلكتروني",
+    "title3": "",
+    "description": "هنا سوف تقوم بملء كافة المعلومات الخاصة بك للوصول إلى حلمك.",
+    "deadline": "10 دقائق للانتهاء",
+    "description2": "تنبيه: يرجى تخصيص الوقت الكافي لملء نموذج طلب يانصيب البطاقة الخضراء بعناية. إذا كانت هناك أي معلومات مفقودة أو تتطلب توضيحًا، فسيتواصل معك أحد أعضاء GovAssist. تأكد من مراقبة طرق الاتصال الخاصة بك وكن على اطلاع بأي اتصالات من جانبنا. إن اهتمامك بالتفاصيل أمر بالغ الأهمية لعملية التقديم السلسة.",
+    "titleRight": "هل أنت مستعد للبدء؟",
+    "btnText": "يبدأ!"
+  },
+  "quiz": {
+    "menu": {
+      "name": "اسم",
+      "contact": "معلومات الاتصال",
+      "gender": "جنس",
+      "birth": "معلومات الميلاد",
+      "country": "بلد الأهلية",
+      "photo": "تصوير",
+      "mail": "العنوان البريدي",
+      "additional": "معلومات إضافية",
+      "payment": "قسط"
+    },
+    "form": {
+      "lname": "اسم العائلة / اللقب",
+      "fname": "الاسم الأول",
+      "mname": "الاسم الأوسط",
+      "phone": "رقم الهاتف",
+      "email": "عنوان البريد الإلكتروني",
+      "email1": "تأكيد عنوان البريد الإلكتروني",
+      "gender": {
+        "name": "جنس",
+        "male": "ذكر",
+        "female": "أنثى"
+      },
+      "date": "تاريخ الميلاد",
+      "country": "البلد الذي وُلدت فيه",
+      "eligibility": {
+        "name": " هل تدعي أهليتك بناءً على البلد الذي ",
+        "yes": "نعم",
+        "not": "لا"
+      },
+      "notEligibility": "إذا لم يكن الأمر كذلك، يجب عليك إدخال البلد الذي تدعي فيه الأهلية.",
+      "photo": {
+        "first": {
+          "label": "صورة المشارك",
+          "description": "يجب تقديم الصور الفوتوغرافية عند دخول برنامج eDV. الصور الفوتوغرافية التي لا تتوافق مع جميع المواصفات، بما في ذلك على سبيل المثال لا الحصر، حداثة الصور، وتكوين الصور، والخلفيات غير المقبولة هي أسباب لاستبعاد المشاركة بأكملها. أي تلاعب في الصور الفوتوغرافية يؤدي إلى تغيير خصائص الوجه هو سبب لاستبعاد المشاركة بأكملها.  <br /> <br /><div /><div />\n \n ستستخدم إحدى الطرق التالية لإدخال الصورة في eDV:\n - التقط صورة رقمية جديدة،<, \n",
+          "btnText": "يتابع"
+        },
+        "second": {
+          "label": "أرسل صورتك",
+          "description": "يجب أن تكون صورة جواز السفر الخاص ب",
+          "btnText": "يتابع",
+          "btn2Text": "حمل الصورة",
+          "btn3Text": "سوف افعلها لاحقا",
+          "line1": "نسبة مربعة 600x600 بكسل",
+          "line2": "الصور الملتقطة مؤخرا",
+          "line3": "في اللون",
+          "line4": "خلفية بيضاء",
+          "line5": "لا توجد صور شخصية ومرشحات على الصورة",
+          "example": "مثال"
+        }
+      },
+      "inCareOf": "بالعناية",
+      "shipping": {
+        "address1": "العنوان سطر 1",
+        "address2": "سطر العنوان 2",
+        "postal": "الرمز البريدي / الرمز البريدي",
+        "region": "المنطقة/المقاطعة/الولاية",
+        "country": "البلد الذي تعيش فيه اليوم"
+      },
+      "school": {
+        "description": "يجب أن يكون لديك ما لا يقل عن شهادة الدراسة الثانوية التي تعكس إكمال دورة دراسية كاملة (المدارس المهنية أو درجات المعادلة غير مقبولة) أو أن تكون عاملاً ماهرًا في مهنة تتطلب عامين على الأقل من التدريب أو الخبرة للتأهل ( ",
+        "label": "ما هو أعلى مستوى تعليم حصلت عليه حتى اليوم؟",
+        "choice1": "Primary School only",
+        "choice2": "High School, no degree",
+        "choice3": "High School degree",
+        "choice4": "Vocational School",
+        "choice5": "Some University Courses",
+        "choice6": "University Degree",
+        "choice7": "Some Graduate Level Courses",
+        "choice8": "Master's Degree",
+        "choice9": "Some Doctorate Level Courses",
+        "choice10": "Doctorate Degree"
+      },
+      "marital": {
+        "label": "ما هو وضعك الزوجي الحالي؟",
+        "description": "الانفصال القانوني هو ترتيب عندما يظل الزوجان متزوجين ولكنهما يعيشان منفصلين، بعد أمر من المحكمة. إذا كنت أنت وزوجتك منفصلين قانونيًا، فلن يتمكن زوجك من الهجرة معك من خلال برنامج تأشيرة التنوع. لن يتم معاقبتك إذا اخترت إدخال اسم الزوج الذي انفصلت عنه قانونيًا.إذا لم يتم فصلك قانونيًا بأمر من المحكمة، فيجب عليك إدراج زوجتك حتى لو كنت . يعد الفشل في إدراج زوجك المؤهل سببًا لعدم الأهلية .إذا كان زوجك U.S. مواطن أو مقيم دائم قانوني، لا تدرجه في إدخالك .",
+        "choice1": "Unmarried",
+        "choice2": "Married and my spouse is NOT a U.S.citizen or U.S. Lawful Permanent Resident (LPR)",
+        "choice3": "Married and my spouse IS a U.S.citizen or U.S. Lawful Permanent Resident (LPR)",
+        "choice4": "Divorced",
+        "choice5": "Widowed",
+        "choice6": "Legally Separated"
+      }
+    }
+  },
+  "services": {
+    "title1": "اختر خدماتك",
+    "title2": "",
+    "offer1": "الحزمة",
+    "offer2": "القياسية",
+    "offer3": "كاملة",
+    "offer4": "حزمة",
+    "line1": "المشاركة مضمونة في اليانصيب.",
+    "line2": "الدعم الفردي + الشخصي",
+    "line3": "يتم قبول الطلبات على مدار العام",
+    "line4": "تمت مراجعة الطلبات بشكل فردي",
+    "line5": "يتم تقديم الطلبات بشكل صحيح وفي الوقت المحدد إلى U.S. سلطات",
+    "line6": "شهادة مشاركة",
+    "line7": "حساب تسجيل دخول العميل الشخصي",
+    "line8": "الدعم القياسي للفائزين",
+    "line9": "التحضير لمقابلة البطاقة الخضراء",
+    "line10": "خدمة توصيل البطاقة الخضراء والضمان الاجتماعي إلى عنواننا في الولايات المتحدة مجانًا",
+    "line11": "الدعم القياسي للفائزين",
+    "line12": "إكمال نموذج DS-260 عبر الإنترنت",
+    "line13": "إعداد وثائق الطلب في حالة الفوز"
+  }
+}
