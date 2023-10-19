@@ -1481,7 +1481,7 @@ export function HomePage() {
         <FAQS faqs={faqs} />
       </section>
 
-      <section className="reviews">
+      {/* <section className="reviews">
         <p className="subtitle" style={{ marginBottom: 100 }}>
           <StarIcon /> {t(translations.reviews.title)}
           <div className="review-bgs">
@@ -1490,9 +1490,9 @@ export function HomePage() {
           </div>
         </p>
         <Reviews reviews={reviews} />
-      </section>
+      </section> */}
 
-      <section className="subscribe">
+      {/* <section className="subscribe">
         <h3> {t(translations.subscribe.title)}</h3>
 
         <div className="subs">
@@ -1592,8 +1592,8 @@ export function HomePage() {
             </form>
           </div>
         )}
-      </section>
-
+      </section> */}
+{/* 
       <section className="footer">
         <div className="footer-top">
           <img alt="logo" onClick={() => navigate('/')} src={img} />
@@ -1654,7 +1654,7 @@ export function HomePage() {
         className="mobile-footer"
       >
         {t(translations.copyright.description)}
-      </section>
+      </section> */}
     </>
   );
 }
