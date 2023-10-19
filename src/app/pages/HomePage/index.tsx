@@ -1478,7 +1478,7 @@ export function HomePage() {
         <p className="subtitle">
           <NoteIcon /> {t(translations.faq.title)}
         </p>
-        <FAQS faqs={faqs} />
+        {/* <FAQS faqs={faqs} /> */}
       </section>
 
       {/* <section className="reviews">
