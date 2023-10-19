@@ -1028,32 +1028,17 @@ export const defaultLangs = lang => [
     active: lang === 'en-US',
     value: 'en-US',
   },
-  {
-    lang: 'Spain',
-    icon: <SpainIcon />,
-    active: lang === 'sp',
-    value: 'sp',
-  },
-  {
-    lang: 'Chinese',
-    icon: <ChineseIcon />,
-    active: lang === 'ch',
-    value: 'ch',
-  },
+ 
+
   {
     lang: 'French',
     icon: <FrenchIcon />,
     active: lang === 'fr',
     value: 'fr',
   },
-  {
-    lang: 'Arabic',
-    icon: <ArabicIcon />,
-    active: lang === 'ar',
-    value: 'ar',
-  },
+ 
 ];
-
+//doen
 export function HomePage() {
   const { t, i18n } = useTranslation();
 
@@ -1098,7 +1083,7 @@ export function HomePage() {
       // Get today's date and time
       var now = new Date().getTime();
 
-      // Find the distance between now and the count down date
+      
       var distance = countDownDate - now;
 
       // Time calculations for days, hours, minutes and seconds
@@ -1268,121 +1253,7 @@ export function HomePage() {
                     {t(translations.nav.eligibility)}
                   </h2>
 
-                      <div
-                        className="input-wrapper"
-                        style={{ marginBottom: 26 }}
-                      >
-                        <input
-                          required
-                          type="text"
-                          style={{ marginRight: 10 }}
-                          placeholder={t(translations.nav.fname)}
-                        />
-                        <input
-                          required
-                          type="text"
-                          placeholder={t(translations.nav.lname)}
-                        />
-                      </div>
-                      <div
-                        className="input-wrapper"
-                        style={{ marginBottom: 26 }}
-                      >
-                        <input
-                          required
-                          type="text"
-                          style={{ marginRight: 10 }}
-                          placeholder={t(translations.nav.email)}
-                        />
-                        <input
-                          required
-                          type="text"
-                          placeholder={t(translations.nav.email1)}
-                        />
-                      </div>
-                      <div
-                        className="input-wrapper"
-                        style={{ marginBottom: 26 }}
-                      >
-                        <select required>
-                          {countries
-                            .sort(function (a, b) {
-                              if (a.name < b.name) {
-                                return -1;
-                              }
-                              if (a.name > b.name) {
-                                return 1;
-                              }
-                              return 0;
-                            })
-                            .reverse()
-                            .concat([{ name: 'Your Country of birth' }])
-                            .reverse()
-                            .map((c, index) =>
-                              index !== 0 ? (
-                                <option value={c.name}>{c.name}</option>
-                              ) : (
-                                <option value="" selected disabled>
-                                  {c.name}
-                                </option>
-                              ),
-                            )}
-                        </select>
-                      </div>
-                      <div
-                        className="input-wrapper"
-                        style={{ marginBottom: 26 }}
-                      >
-                        <select
-                          required
-                          defaultValue={'Marital Status'}
-                          placeholder="Marital Status"
-                        >
-                          {[
-                            {
-                              label: 'Unmarried',
-                              value: 'Unmarried',
-                            },
-                            {
-                              label:
-                                'Married and my spouse is NOT a U.S.citizen or U.S. Lawful Permanent Resident (LPR)',
-                              value:
-                                'Married and my spouse is NOT a U.S.citizen or U.S. Lawful Permanent Resident (LPR)',
-                            },
-                            {
-                              label:
-                                'Married and my spouse IS a U.S.citizen or U.S. Lawful Permanent Resident (LPR)',
-                              value:
-                                'Married and my spouse IS a U.S.citizen or U.S. Lawful Permanent Resident (LPR)',
-                            },
-                            {
-                              label: 'Divorced',
-                              value: 'Divorced',
-                            },
-                            {
-                              label: 'Widowed',
-                              value: 'Widowed',
-                            },
-                            {
-                              label: 'Legally Separated',
-                              value: 'Legally Separated',
-                            },
-                          ].map(({ label, value }) => (
-                            <option value={value}>{label}</option>
-                          ))}
-                        </select>
-                      </div>
-                      <div>
-                        <label>
-                          <input className="school-qual" type="checkbox" />{' '}
-                          {t(translations.nav.school)}
-                        </label>
-                      </div>
-                      <button type="submit" className="main-form-btn">
-                        {t(translations.nav.continue)}
-                      </button>
-                    </form>
-                  ) : (
+                  
                     <>
                       <p className="error-form">
                         <svg
@@ -1414,7 +1285,7 @@ export function HomePage() {
                         {t(translations.nav.back)}
                       </button>
                     </>
-                  )}
+                
                 </div>
               </div>
             </div>
