@@ -1085,18 +1085,7 @@ export function HomePage() {
         Answer: DiversityTable,
         open: true,
       },
-      {
-        question: t(translations.faq.section2.qname),
-        className: 'faq-title',
-        Answer: DiversityTimeline,
-      },
-      {
-        question: t(translations.faq.section3.title),
-        Answer: () => <DiversityFAQ html={t(translations.faq.section3.html)} />,
-        className: 'faq-title',
-      },
-    ],
-    [t],
+    ]
   );
   const [subs, setSubs] = React.useState(false);
 
@@ -1190,10 +1179,7 @@ export function HomePage() {
               <div className={`dropdown-content ${open ? 'hide' : 'open'}`}>
                 <p
                   style={{ margin: 0, padding: '7px 0' }}
-                  onClick={() => {
-                    handleLang(activeLang?.lang);
-                    changLanguageButtonClicked(activeLang?.value as string);
-                  }}
+                 
                 >
                   {activeLang?.icon} <ArrowDown />
                 </p>
@@ -1202,10 +1188,7 @@ export function HomePage() {
                   .map(lang => (
                     <p
                       style={{ margin: 0, padding: '7px 0' }}
-                      onClick={() => {
-                        handleLang(lang.lang);
-                        changLanguageButtonClicked(lang.value as string);
-                      }}
+                     
                       id={lang.lang}
                     >
                       {lang.icon} {lang.active && <ArrowDown />}
@@ -1214,11 +1197,7 @@ export function HomePage() {
               </div>
             </div>
             <button
-              onClick={() => {
-                document
-                  ?.querySelector('#grs-chat-widget .chat-button') // @ts-ignore
-                  ?.click();
-              }}
+          
               className="live-chat-home chat-button"
             >
               {t(translations.liveChat)}
@@ -1289,38 +1268,6 @@ export function HomePage() {
                     {t(translations.nav.eligibility)}
                   </h2>
 
-                  {el ? (
-                    <form
-                      name="eligibity"
-                      onSubmit={e => {
-                        e.preventDefault();
-                        const fname = e.target[0].value;
-                        const surname = e.target[1].value;
-                        const email = e.target[2].value;
-                        const email2 = e.target[3].value;
-                        const country = e.target[4].value;
-                        const marital = e.target[5].value;
-                        const checkbox = e.target[6].checked;
-                        if (
-                          notEligibleCountries.includes(country) ||
-                          // @ts-ignore
-                          !document.querySelector('.school-qual').checked
-                        ) {
-                          setEl(false);
-                          return;
-                        }
-
-                        localStorage.setItem('landing-fname', fname);
-                        localStorage.setItem('landing-surname', surname);
-                        localStorage.setItem('landing-email', email);
-                        localStorage.setItem('landing-email2', email2);
-                        localStorage.setItem('landing-country', country);
-                        localStorage.setItem('landing-marital', marital);
-                        localStorage.setItem('landing-checkbox', checkbox);
-                        navigate('/form');
-                      }}
-                      className="nav-form"
-                    >
                       <div
                         className="input-wrapper"
                         style={{ marginBottom: 26 }}
@@ -1462,7 +1409,7 @@ export function HomePage() {
                       <button
                         type="submit"
                         className="main-form-btn"
-                        onClick={() => setEl(true)}
+                        // onClick={() => setEl(true)}
                       >
                         {t(translations.nav.back)}
                       </button>
@@ -1478,7 +1425,7 @@ export function HomePage() {
         <p className="subtitle">
           <NoteIcon /> {t(translations.faq.title)}
         </p>
-        {/* <FAQS faqs={faqs} /> */}
+        <FAQS faqs={faqs} />
       </section>
 
       {/* <section className="reviews">
