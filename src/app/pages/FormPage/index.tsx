@@ -1,11 +1,11 @@
-import * as React from 'react';
-import { Helmet } from 'react-helmet-async';
-import img from '../HomePage/assets/logo.png';
-import { Arrow, ArrowDown, defaultLangs } from '../HomePage';
-import './form.css';
-import { useNavigate } from 'react-router-dom';
-import { useTranslation } from 'react-i18next';
-import { translations } from 'locales/translations';
+import * as React from "react";
+import { Helmet } from "react-helmet-async";
+import img from "../HomePage/assets/logo.png";
+import { Arrow, ArrowDown, defaultLangs } from "../HomePage";
+import "./form.css";
+import { useNavigate } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+import { translations } from "locales/translations";
 
 export function FormPage() {
   const { t, i18n } = useTranslation();
@@ -13,18 +13,18 @@ export function FormPage() {
   const navigate = useNavigate();
   const [open, setOpen] = React.useState(true);
   const [languages, setLang] = React.useState(defaultLangs(i18n.language));
-  const handleLang = activeLang => {
+  const handleLang = (activeLang) => {
     setLang(
-      languages.map(data => ({ ...data, active: data.lang === activeLang })),
+      languages.map((data) => ({ ...data, active: data.lang === activeLang }))
     );
-    setOpen(t => !t);
+    setOpen((t) => !t);
   };
 
   const changLanguageButtonClicked = (language: string) => {
     i18n.changeLanguage(language);
   };
 
-  const activeLang = languages.find(l => l.active);
+  const activeLang = languages.find((l) => l.active);
 
   return (
     <>
@@ -33,19 +33,19 @@ export function FormPage() {
       </Helmet>
       <main className="form-start">
         <div className="form-start-left">
-          <img alt="logo" onClick={() => navigate('/')} width={131} src={img} />
+          <img alt="logo" onClick={() => navigate("/")} width={131} src={img} />
           <h1>
-            {t(translations.fp.title1)}{' '}
-            <span className="green">{t(translations.fp.title2)}</span>{' '}
+            {t(translations.fp.title1)}{" "}
+            <span className="green">{t(translations.fp.title2)}</span>{" "}
             {t(translations.fp.title3)}
           </h1>
           <h2>{t(translations.fp.description)}</h2>
           <p
-            style={{ display: 'flex', alignItems: 'center' }}
+            style={{ display: "flex", alignItems: "center" }}
             className="form-start-iconed-text"
           >
             <svg
-              style={{ marginRight: '5px' }}
+              style={{ marginRight: "5px" }}
               width="32"
               height="35"
               viewBox="0 0 32 35"
@@ -95,55 +95,32 @@ export function FormPage() {
         <div className="form-start-right">
           <nav className="">
             <div className="dropdown">
-              <button onClick={l => setOpen(!l)} className="dropbtn">
+              <button onClick={(l) => setOpen(!l)} className="dropbtn">
                 <span className="form-page-icon">{activeLang?.icon}</span>
                 <span className="opened-icon-lang">
                   <Arrow />
                 </span>
               </button>
-              <div className={`dropdown-content ${open ? 'hide' : 'open'}`}>
-                <p
-                  style={{ margin: 0, padding: '7px 0' }}
-                  onClick={() => {
-                    handleLang(activeLang?.lang);
-                    changLanguageButtonClicked(activeLang?.value as string);
-                  }}
-                >
+              <div className={`dropdown-content ${open ? "hide" : "open"}`}>
+                <p style={{ margin: 0, padding: "7px 0" }}>
                   {activeLang?.icon} <ArrowDown />
                 </p>
                 {languages
-                  .filter(l => !l.active)
-                  .map(lang => (
-                    <p
-                      style={{ margin: 0, padding: '7px 0' }}
-                      onClick={() => {
-                        handleLang(lang.lang);
-                        changLanguageButtonClicked(lang.value as string);
-                      }}
-                      id={lang.lang}
-                    >
+                  .filter((l) => !l.active)
+                  .map((lang) => (
+                    <p style={{ margin: 0, padding: "7px 0" }} id={lang.lang}>
                       {lang.icon} {lang.active && <ArrowDown />}
                     </p>
                   ))}
               </div>
             </div>
-            <button
-              onClick={() => {
-                document
-                  ?.querySelector('#grs-chat-widget .chat-button') // @ts-ignore
-                  ?.click();
-              }}
-              className="live-chat chat-button"
-            >
+            <button className="live-chat chat-button">
               {t(translations.liveChat)}
             </button>
           </nav>
           <div className="form-right-flex">
             <h2>{t(translations.fp.titleRight)}</h2>
-            <button
-              onClick={() => navigate('/quiz')}
-              className="form-start-btn"
-            >
+            <button onClick={() => navigate("/")} className="form-start-btn">
               {t(translations.fp.btnText)}
             </button>
             <p className="copyright">{t(translations.copyright.description)}</p>

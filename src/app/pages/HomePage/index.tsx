@@ -1,27 +1,27 @@
-import * as React from 'react';
-import { Helmet } from 'react-helmet-async';
-import img from './assets/logo.png';
-import { FAQS } from './FAQS';
-import reviewImg from './assets/review.png';
-import { Reviews } from './Reviews';
-import review1 from './assets/review-1.png';
-import { useNavigate } from 'react-router-dom';
-import { DiversityFAQ } from './components/DiversityFAQ';
-import { DiversityTimeline } from './components/DiversityTimeline';
-import { useCountries } from 'use-react-countries';
-import { notEligibleCountries } from '../QuizPage/QuizPage';
-import { useTranslation } from 'react-i18next';
-import { translations } from 'locales/translations';
+import * as React from "react";
+import { Helmet } from "react-helmet-async";
+import img from "./assets/logo.png";
+import { FAQS } from "./FAQS";
+import reviewImg from "./assets/review.png";
+import { Reviews } from "./Reviews";
+import review1 from "./assets/review-1.png";
+import { useNavigate } from "react-router-dom";
+import { DiversityFAQ } from "./components/DiversityFAQ";
+import { DiversityTimeline } from "./components/DiversityTimeline";
+import { useCountries } from "use-react-countries";
+import FAQ from "./FQ";
+import { useTranslation } from "react-i18next";
+import { translations } from "locales/translations";
 
 const keys = [
-  'id',
-  'author',
-  'location',
-  'date',
-  'title',
-  'text',
-  'experience',
-  'link',
+  "id",
+  "author",
+  "location",
+  "date",
+  "title",
+  "text",
+  "experience",
+  "link",
 ];
 
 function useIsInViewport(ref) {
@@ -30,9 +30,9 @@ function useIsInViewport(ref) {
   const observer = React.useMemo(
     () =>
       new IntersectionObserver(([entry]) =>
-        setIsIntersecting(entry.isIntersecting),
+        setIsIntersecting(entry.isIntersecting)
       ),
-    [],
+    []
   );
 
   React.useEffect(() => {
@@ -149,7 +149,7 @@ const ReviewIcon = () => (
   </svg>
 );
 
-export const Arrow = props => (
+export const Arrow = (props) => (
   <svg
     width="12"
     height="6"
@@ -168,7 +168,7 @@ export const Arrow = props => (
   </svg>
 );
 
-export const ArrowDown = props => (
+export const ArrowDown = (props) => (
   <svg
     width="6"
     height="12"
@@ -186,7 +186,7 @@ export const ArrowDown = props => (
   </svg>
 );
 
-export const EnglishIcon = props => (
+export const EnglishIcon = (props) => (
   <svg
     width="98"
     height="20"
@@ -276,7 +276,7 @@ export const EnglishIcon = props => (
   </svg>
 );
 
-export const SpainIcon = props => (
+export const SpainIcon = (props) => (
   <svg
     width="106"
     height="20"
@@ -479,7 +479,16 @@ export const DeutshIcon = () => (
   </svg>
 );
 
-const NavText = ({ line1, line2, line3, line4, link, line5, lineContinue }) => (
+const NavText = ({
+  line1,
+  line2,
+  line3,
+  line4,
+  link,
+  line5,
+  line6,
+  lineContinue,
+}) => (
   <div className="nav-text">
     <div>
       <svg
@@ -612,6 +621,25 @@ const NavText = ({ line1, line2, line3, line4, link, line5, lineContinue }) => (
       </svg>
       {line5}
     </div>
+    <div>
+      <svg
+        width="29"
+        height="27"
+        viewBox="0 0 29 27"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M13.2562 24.4403C12.8759 24.4403 12.5088 24.3864 12.2072 24.2651C7.72282 22.6888 0.57666 17.0572 0.57666 8.73094C0.57666 4.46006 3.93337 0.997559 8.06372 0.997559C10.0437 0.997559 11.8925 1.77896 13.2693 3.16666C14.6592 1.77896 16.4949 0.997559 18.4748 0.997559C22.6052 0.997559 25.9619 4.46006 25.9619 8.73094C25.9619 9.31028 25.9226 9.90309 25.8439 10.5094C25.8046 10.8192 25.621 11.1022 25.3587 11.2638C25.0965 11.4255 24.7687 11.439 24.4802 11.3177C22.8674 10.6037 20.8613 11.1426 19.8123 12.5842C19.6287 12.8402 19.2747 12.9749 19.0255 12.9884C18.7108 12.9884 18.4224 12.8402 18.2388 12.5842C17.4914 11.5603 16.3507 10.9809 15.1181 10.9809C12.9808 10.9809 11.2369 12.7863 11.2369 15.0093C11.2369 18.5122 13.1906 21.0047 14.8427 22.5002C15.0788 22.7157 15.1968 23.0256 15.1706 23.349C15.1443 23.6723 14.9739 23.9552 14.6985 24.1304C14.5543 24.2112 14.4363 24.2651 14.3707 24.2786C14.0298 24.3864 13.6495 24.4403 13.2562 24.4403ZM8.06372 3.01848C5.02169 3.01848 2.54349 5.5783 2.54349 8.73094C2.54349 15.7772 8.24732 20.1155 11.5254 21.7861C10.2797 20.0751 9.25694 17.8116 9.25694 14.9958C9.25694 11.6546 11.8794 8.94651 15.105 8.94651C16.5736 8.94651 17.9503 9.49892 19.0124 10.4824C20.3368 9.26988 22.2249 8.71746 23.982 9.05428C23.982 8.9465 23.982 8.83874 23.982 8.74443C23.982 5.59179 21.5037 3.03193 18.4617 3.03193C16.7178 3.03193 15.105 3.86724 14.0429 5.30883C13.8593 5.56482 13.5709 5.71305 13.2562 5.71305C12.9415 5.71305 12.653 5.56482 12.4694 5.30883C11.4336 3.85377 9.82076 3.01848 8.06372 3.01848Z"
+          fill="white"
+        />
+        <path
+          d="M19.0263 26.9999C18.7247 26.9999 18.41 26.9594 18.1609 26.8651C17.0332 26.4744 15.2106 25.5179 13.5454 23.9954C11.6048 22.2305 9.28394 19.2395 9.28394 14.9956C9.28394 11.6543 11.9064 8.94629 15.132 8.94629C16.6005 8.94629 17.9773 9.49869 19.0394 10.4822C20.6915 8.95978 23.2091 8.52863 25.2808 9.45826C27.405 10.4283 28.7818 12.6109 28.7818 15.0091C28.7818 21.3952 23.3271 25.6795 19.8917 26.8786C19.6294 26.9594 19.3279 26.9999 19.0263 26.9999ZM15.1188 10.9672C12.9816 10.9672 11.2377 12.7726 11.2377 14.9956C11.2377 18.4985 13.1913 20.991 14.8435 22.4865C16.2989 23.8068 17.8331 24.6286 18.7903 24.952C18.8952 24.9924 19.1443 24.9924 19.2361 24.952C21.2029 24.2649 26.8018 20.964 26.8018 14.9956C26.8018 13.3923 25.884 11.9373 24.481 11.304C22.8944 10.59 20.862 11.1289 19.813 12.5705C19.6294 12.8265 19.2754 12.9612 19.0263 12.9747C18.7116 12.9747 18.4231 12.8265 18.2396 12.5705C17.4922 11.5465 16.3514 10.9672 15.1188 10.9672Z"
+          fill="#4AC97D"
+        />
+      </svg>
+      {line6}
+    </div>
   </div>
 );
 
@@ -726,7 +754,7 @@ const DiversityTable = () => {
         </a>
       </div>
       <div>
-        <table className="diversity-table" style={{ width: '100%' }}>
+        <table className="diversity-table" style={{ width: "100%" }}>
           <tr>
             <th>{t(translations.faq.section1.line11)}</th>
             <th>{t(translations.faq.section1.line12)}</th>
@@ -734,12 +762,8 @@ const DiversityTable = () => {
           </tr>
           <tr>
             <td>
-              {t(translations.faq.section1.line21)}{' '}
-              <a
-                href="https://www.uscis.gov/sites/default/files/document/forms/i-130instr.pdf"
-                target="_blank"
-                rel="noreferrer"
-              >
+              {t(translations.faq.section1.line21)}{" "}
+              <a href="/" target="_blank" rel="noreferrer">
                 {t(translations.faq.section1.line21Link)}
               </a>
             </td>
@@ -748,12 +772,8 @@ const DiversityTable = () => {
           </tr>
           <tr>
             <td>
-              {t(translations.faq.section1.line31)}{' '}
-              <a
-                href="https://www.uscis.gov/sites/default/files/document/forms/i-485instr.pdf"
-                target="_blank"
-                rel="noreferrer"
-              >
+              {t(translations.faq.section1.line31)}{" "}
+              <a href="/" target="_blank" rel="noreferrer">
                 {t(translations.faq.section1.line31Link)}
               </a>
             </td>
@@ -762,12 +782,8 @@ const DiversityTable = () => {
           </tr>
           <tr>
             <td>
-              {t(translations.faq.section1.line41)}{' '}
-              <a
-                href="https://www.uscis.gov/sites/default/files/document/forms/i-864.pdf"
-                target="_blank"
-                rel="noreferrer"
-              >
+              {t(translations.faq.section1.line41)}{" "}
+              <a href="/" target="_blank" rel="noreferrer">
                 {t(translations.faq.section1.line41Link)}
               </a>
             </td>
@@ -776,12 +792,8 @@ const DiversityTable = () => {
           </tr>
           <tr>
             <td>
-              {t(translations.faq.section1.line51)}{' '}
-              <a
-                href="https://www.uscis.gov/sites/default/files/document/forms/i-765instr.pdf"
-                target="_blank"
-                rel="noreferrer"
-              >
+              {t(translations.faq.section1.line51)}{" "}
+              <a href="/" target="_blank" rel="noreferrer">
                 {t(translations.faq.section1.line51Link)}
               </a>
             </td>
@@ -790,12 +802,8 @@ const DiversityTable = () => {
           </tr>
           <tr>
             <td>
-              {t(translations.faq.section1.line61)}{' '}
-              <a
-                href="https://www.uscis.gov/sites/default/files/document/forms/i-131.pdf"
-                target="_blank"
-                rel="noreferrer"
-              >
+              {t(translations.faq.section1.line61)}{" "}
+              <a href="/" target="_blank" rel="noreferrer">
                 {t(translations.faq.section1.line61Link)}
               </a>
             </td>
@@ -804,12 +812,8 @@ const DiversityTable = () => {
           </tr>
           <tr>
             <td>
-              <a
-                href="https://www.uscis.gov/forms/filing-guidance/preparing-for-your-biometric-services-appointment"
-                target="_blank"
-                rel="noreferrer"
-              >
-                {t(translations.faq.section1.line71Link)}{' '}
+              <a href="/" target="_blank" rel="noreferrer">
+                {t(translations.faq.section1.line71Link)}{" "}
               </a>
               {t(translations.faq.section1.line71)}
             </td>
@@ -818,11 +822,7 @@ const DiversityTable = () => {
           </tr>
           <tr>
             <td>
-              <a
-                href="https://egov.uscis.gov/processing-times/more-info"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="/" target="_blank" rel="noreferrer">
                 {t(translations.faq.section1.line81Link)}
               </a>
             </td>
@@ -831,11 +831,7 @@ const DiversityTable = () => {
           </tr>
           <tr>
             <td>
-              <a
-                href="https://www.uscis.gov/forms/filing-fees/uscis-immigrant-fee"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="/" target="_blank" rel="noreferrer">
                 {t(translations.faq.section1.line91Link)}
               </a>
             </td>
@@ -844,11 +840,7 @@ const DiversityTable = () => {
           </tr>
           <tr>
             <td>
-              <a
-                href="https://travel.state.gov/content/travel/en/us-visas/immigrate/the-immigrant-visa-process/step-10-prepare-for-the-interview/medical-examination-faqs.html#:~:text=The%20medical%20examination%20will%20include,abdomen%2C%20lymph%20nodes%20and%20skin"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="/" target="_blank" rel="noreferrer">
                 {t(translations.faq.section1.line101Link)}
               </a>
             </td>
@@ -867,13 +859,9 @@ const DiversityTable = () => {
             </td>
           </tr>
         </table>
-        <p style={{ textAlign: 'right' }}>
-          {t(translations.faq.section1.calc)}{' '}
-          <a
-            href="https://www.uscis.gov/feecalculator"
-            target="_blank"
-            rel="noreferrer"
-          >
+        <p style={{ textAlign: "right" }}>
+          {t(translations.faq.section1.calc)}{" "}
+          <a href="/" target="_blank" rel="noreferrer">
             {t(translations.faq.section1.calcLink)}
           </a>
         </p>
@@ -882,6 +870,7 @@ const DiversityTable = () => {
   );
 };
 
+const cars = ["English", "Spanish", "French"];
 export const ChineseIcon = () => {
   return (
     <svg
@@ -1021,25 +1010,31 @@ export const ArabicIcon = () => {
   );
 };
 
-export const defaultLangs = lang => [
+export const defaultLangs = (lang) => [
   {
-    lang: 'English',
+    lang: "English",
     icon: <EnglishIcon />,
-    active: lang === 'en-US',
-    value: 'en-US',
+    active: lang === "en-US",
+    value: "en-US",
   },
- 
+  {
+    lang: "Spain",
+    icon: <SpainIcon />,
+    active: lang === "sp",
+    value: "sp",
+  },
 
   {
-    lang: 'French',
+    lang: "French",
     icon: <FrenchIcon />,
-    active: lang === 'fr',
-    value: 'fr',
+    active: lang === "fr",
+    value: "fr",
   },
- 
 ];
-//doen
+
 export function HomePage() {
+  const [show, setShow] = React.useState(false);
+
   const { t, i18n } = useTranslation();
 
   const changLanguageButtonClicked = (language: string) => {
@@ -1048,48 +1043,49 @@ export function HomePage() {
   let { countries } = useCountries();
   const [languages, setLang] = React.useState(defaultLangs(i18n.language));
   const [open, setOpen] = React.useState(true);
-  const [date, setDate] = React.useState(['-', '-', '-', '-']);
+  const [date, setDate] = React.useState(["-", "-", "-", "-"]);
 
   const ref1 = React.useRef(null);
   const ref2 = React.useRef(null);
   const isInViewport1 = useIsInViewport(ref1);
   const isInViewport2 = useIsInViewport(ref2);
 
-  const handleLang = activeLang => {
+  const handleLang = (activeLang) => {
     setLang(
-      languages.map(data => ({ ...data, active: data.lang === activeLang })),
+      languages.map((data) => ({ ...data, active: data.lang === activeLang }))
     );
-    setOpen(t => !t);
+    setOpen((t) => !t);
   };
 
   const faqs = React.useMemo(
     () => [
       {
         question: t(translations.faq.section1.qname),
-        className: 'faq-title',
+        className: "faq-title",
         Answer: DiversityTable,
         open: true,
       },
-    ]
+    ],
+    [t]
   );
   const [subs, setSubs] = React.useState(false);
 
   React.useLayoutEffect(() => {
     // Set the date we're counting down to
-    var countDownDate = new Date('Nov 8, 2023 15:37:25').getTime();
+    var countDownDate = new Date("Nov 30, 2023 15:37:25").getTime();
 
     // Update the count down every 1 second
     var x = setInterval(function () {
       // Get today's date and time
       var now = new Date().getTime();
 
-      
+      // Find the distance between now and the count down date
       var distance = countDownDate - now;
 
       // Time calculations for days, hours, minutes and seconds
       var days = Math.floor(distance / (1000 * 60 * 60 * 24));
       var hours = Math.floor(
-        (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60),
+        (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
       );
       var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
@@ -1105,13 +1101,13 @@ export function HomePage() {
   }, []);
 
   const [el, setEl] = React.useState(true);
-  const activeLang = languages.find(l => l.active);
+  const activeLang = languages.find((l) => l.active);
 
   const navigate = useNavigate();
 
   let reviews = new Array(4).fill(1).map((_, idx) => {
     let r = {};
-    keys.forEach(k => {
+    keys.forEach((k) => {
       r[k] = t(translations.reviews.items[idx][k]);
     });
     return r;
@@ -1121,32 +1117,27 @@ export function HomePage() {
     if (window !== undefined) {
       let windowHeight = window.scrollY;
       // window height changed for the demo
-      windowHeight > 48 ? setStickyClass('sticky-nav') : setStickyClass('');
+      windowHeight > 48 ? setStickyClass("sticky-nav") : setStickyClass("");
     }
   };
 
-  const [stickyClass, setStickyClass] = React.useState('');
+  const [stickyClass, setStickyClass] = React.useState("");
 
   React.useEffect(() => {
-    window.addEventListener('scroll', stickNavbar);
-    return () => window.removeEventListener('scroll', stickNavbar);
+    window.addEventListener("scroll", stickNavbar);
+    return () => window.removeEventListener("scroll", stickNavbar);
   }, []);
 
   return (
     <>
-      <div className="main-nav-wrapper" id="top">
-        <div
-          className="vimeo-wrapper"
-          style={{
-            position: !isInViewport2 || isInViewport1 ? 'absolute' : 'fixed',
-          }}
-        >
+      <div className="main-nav-wrapper background-gif" id="top">
+        <div className="vimeo-wrapper">
           <div>
             <iframe
-              src="https://player.vimeo.com/video/868096419?h=630406fdae&amp;background=1&autoplay=1&loop=1&byline=0&title=0&player_id=0&amp;app_id=58479"
+              src="https://s3-alpha-sig.figma.com/img/3ae8/d26f/1a9c8d40ed894b16d341b07f657241d6?Expires=1698624000&Signature=qcp~R7445oL7SxfekvC~xwPtRBQUmcSrc~7L42~9zYNtW~3HsBBymyHNE7YTUDnNVHXXhXohHfZAABryqCHN5urgB0GeFU-QaefZsmPrDIo~J0zP17RX3gCv7qyYsVkGb1wKlAdDgkwF7Fni5RHF2pn3uAa7JINxkfq0UbgaziZ7-LO75jP95twavlusi0XotYnkRvZKCiK1v6OXJLMftjOObcdhrP57rB8JwmxO2E5L3dy3g4O03oIRK5pHmtF0ZJJO1U2kW4gDePy4rd1xx8EdUnJcWRjIu08uwYcrcIH8VKacl4SeqryBh1yJ0E7jZo0ba~E3i8rlL7urmAbxZg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
               frameBorder="0"
               allow="autoplay=1;loop=1;autopause=0; fullscreen;picture-in-picture"
-              title="excited-african-american-woman-win-online-prize-in-2023-05-31-18-51-03-utc"
+              title="5-31-18-51-03-utc"
             ></iframe>
           </div>
           <script src="https://player.vimeo.com/api/player.js"></script>
@@ -1154,51 +1145,54 @@ export function HomePage() {
         <div className="video-bg-overlay"></div>
         <script src="https://player.vimeo.com/api/player.js"></script>
         <div ref={ref2} className="main-nav-container">
-          <nav className={`main-nav centered-wrapper ${stickyClass}`}>
-            <img alt="logo" onClick={() => navigate('/')} src={img} />
-
-            <div className="dropdown">
-              <button onClick={l => setOpen(!l)} className="dropbtn">
-                {activeLang?.icon} <Arrow />
-              </button>
-              <div className={`dropdown-content ${open ? 'hide' : 'open'}`}>
-                <p
-                  style={{ margin: 0, padding: '7px 0' }}
-                 
+          <div className=" bg-[#1F3655]  flex-shrink-0 rounded-lg  max-w-[84.875rem] max-h-[7.4375rem]  mx-[4.1rem] flex justify-between p-[1.56rem] items-center">
+            <img src="/logo.png"></img>
+            <div className="flex justify-center items-center">
+              <div className="dropdown-wrapper relative m-8">
+                <button
+                  onClick={() => setShow(!show)}
+                  className={`bg-green-500 text-white font-bold py-2 px-4 flex gap-2 whitespace-no-wrap rounded transition duration-300`}
                 >
-                  {activeLang?.icon} <ArrowDown />
-                </p>
-                {languages
-                  .filter(l => !l.active)
-                  .map(lang => (
-                    <p
-                      style={{ margin: 0, padding: '7px 0' }}
-                     
-                      id={lang.lang}
-                    >
-                      {lang.icon} {lang.active && <ArrowDown />}
-                    </p>
-                  ))}
+                  <EnglishIcon />
+                  <i className="fas fa-chevron-down ml-2"></i>
+                </button>
+                {show && (
+                  <div
+                    className={`bg-green-500 dropdown-menu text-white mt-1 rounded absolute z-10 shadow-lg w-40 max-w-xs fade`}
+                  >
+                    <ul className="list-none overflow-hidden rounded">
+                      {cars.map((car, index) => (
+                        <li key={index}>
+                          <a
+                            href=""
+                            className={
+                              "flex py-2 px-4  transition duration-300 theme-bg-green-500"
+                            }
+                          >
+                            {car}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
               </div>
+              <button className="hover:bg-green-500 flex w-48 h-16 flex-col justify-center items-center rounded text-white border-2 border-zinc-50  text-center text-base not-italic font-bold">
+                LIVE CHAT
+              </button>
             </div>
-            <button
-          
-              className="live-chat-home chat-button"
-            >
-              {t(translations.liveChat)}
-            </button>
-          </nav>
+          </div>
           <div className="centered-wrapper nav-bottom">
             <div>
               <h1>
-                <span className="green">{t(translations.nav.title1)}</span>
-                <br /> {t(translations.nav.title2)}
+                <span className="green">Win the right to live </span>
+                <br /> in the USA!
               </h1>
               <div className="subtitle-wrapper">
                 <p className="landing-subtitle">
-                  {t(translations.nav.subtitle1)}{' '}
-                  <a target="_blank" href="/form">
-                    {t(translations.nav.subtitle2)}
+                  The official deadline is running, so hurry up and
+                  <a target="_blank" href="/page2">
+                    apply here!
                   </a>
                 </p>
                 <div className="countdown-wrapper">
@@ -1228,9 +1222,10 @@ export function HomePage() {
                   </div>
                 </div>
               </div>
-              <div style={{ marginTop: '50px' }}>
+              <div style={{ marginTop: "50px" }}>
                 <NavText
                   line1={t(translations.nav.line1)}
+                  line6={"OFFICIAL USA Governmental program."}
                   line2={t(translations.nav.line2)}
                   line3={t(translations.nav.line3)}
                   line4={t(translations.nav.line4)}
@@ -1244,8 +1239,8 @@ export function HomePage() {
               <div className="form-wrapper">
                 <div>
                   <p className="form-subtitle">
-                    <ArrowRight />{' '}
-                    <span style={{ marginLeft: '7px' }}>
+                    <ArrowRight />{" "}
+                    <span style={{ marginLeft: "7px" }}>
                       {t(translations.nav.checkNow)}
                     </span>
                   </p>
@@ -1253,64 +1248,336 @@ export function HomePage() {
                     {t(translations.nav.eligibility)}
                   </h2>
 
-                  
+                  {true ? (
+                    <form
+                      name="eligibity"
+                      onSubmit={(e) => {
+                        e.preventDefault();
+                        const fname = e.target[0].value;
+                        const surname = e.target[1].value;
+                        const email = e.target[2].value;
+                        const email2 = e.target[3].value;
+                        const country = e.target[4].value;
+                        const marital = e.target[5].value;
+                        const checkbox = e.target[6].checked;
+
+                        navigate("/page2");
+                      }}
+                      className="nav-form"
+                    >
+                      <div
+                        className="input-wrapper"
+                        style={{ marginBottom: 26 }}
+                      >
+                        <input
+                          required
+                          type="text"
+                          style={{ marginRight: 10 }}
+                          placeholder={t(translations.nav.fname)}
+                        />
+                        <input
+                          required
+                          type="text"
+                          placeholder={t(translations.nav.lname)}
+                        />
+                      </div>
+                      <div
+                        className="input-wrapper"
+                        style={{ marginBottom: 26 }}
+                      >
+                        <input
+                          required
+                          type="text"
+                          style={{ marginRight: 10 }}
+                          placeholder={t(translations.nav.email)}
+                        />
+                        <input
+                          required
+                          type="text"
+                          placeholder={t(translations.nav.email1)}
+                        />
+                      </div>
+                      <div
+                        className="input-wrapper"
+                        style={{ marginBottom: 26 }}
+                      >
+                        <select required>
+                          {countries
+                            .sort(function (a, b) {
+                              if (a.name < b.name) {
+                                return -1;
+                              }
+                              if (a.name > b.name) {
+                                return 1;
+                              }
+                              return 0;
+                            })
+                            .reverse()
+                            .concat([{ name: "Your Country of birth" }])
+                            .reverse()
+                            .map((c, index) =>
+                              index !== 0 ? (
+                                <option value={c.name}>{c.name}</option>
+                              ) : (
+                                <option value="" selected disabled>
+                                  {c.name}
+                                </option>
+                              )
+                            )}
+                        </select>
+                      </div>
+                      <div
+                        className="input-wrapper"
+                        style={{ marginBottom: 26 }}
+                      >
+                        <select
+                          required
+                          defaultValue={"Marital Status"}
+                          placeholder="Marital Status"
+                        >
+                          {[
+                            {
+                              label: "Unmarried",
+                              value: "Unmarried",
+                            },
+                            {
+                              label: "Married ",
+                              value: "Married ",
+                            },
+
+                            {
+                              label: "Divorced",
+                              value: "Divorced",
+                            },
+                          ].map(({ label, value }) => (
+                            <option value={value}>{label}</option>
+                          ))}
+                        </select>
+                      </div>
+                      <div>
+                        <label>
+                          <input className="school-qual" type="checkbox" />{" "}
+                          {t(translations.nav.school)}
+                        </label>
+                      </div>
+                      <button type="submit" className="main-form-btn">
+                        {t(translations.nav.continue)}
+                      </button>
+                    </form>
+                  ) : (
                     <>
                       <p className="error-form">
-                        <svg
-                          width="53"
-                          height="53"
-                          viewBox="0 0 53 53"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M26.5 0C11.8985 0 0 11.8985 0 26.5C0 41.1015 11.8985 53 26.5 53C41.1015 53 53 41.1015 53 26.5C53 11.8985 41.1015 0 26.5 0ZM35.404 32.595C36.1725 33.3635 36.1725 34.6355 35.404 35.404C35.0065 35.8015 34.503 35.987 33.9995 35.987C33.496 35.987 32.9925 35.8015 32.595 35.404L26.5 29.309L20.405 35.404C20.0075 35.8015 19.504 35.987 19.0005 35.987C18.497 35.987 17.9935 35.8015 17.596 35.404C16.8275 34.6355 16.8275 33.3635 17.596 32.595L23.691 26.5L17.596 20.405C16.8275 19.6365 16.8275 18.3645 17.596 17.596C18.3645 16.8275 19.6365 16.8275 20.405 17.596L26.5 23.691L32.595 17.596C33.3635 16.8275 34.6355 16.8275 35.404 17.596C36.1725 18.3645 36.1725 19.6365 35.404 20.405L29.309 26.5L35.404 32.595Z"
-                            fill="#FF0000"
-                          />
-                        </svg>
                         <span
                           style={{
-                            display: ' inline-block',
-                            marginLeft: '10px',
+                            display: " inline-block",
+                            marginLeft: "10px",
+                            backgroundColor: "red",
                           }}
                         >
-                          {t(translations.nav.errorMsg)}
+                          error
                         </span>
                       </p>
-                      <button
-                        type="submit"
-                        className="main-form-btn"
-                        // onClick={() => setEl(true)}
-                      >
+                      <button type="submit" className="main-form-btn">
                         {t(translations.nav.back)}
                       </button>
                     </>
-                
+                  )}
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
       <section className="faq" ref={ref1}>
         <p className="subtitle">
           <NoteIcon /> {t(translations.faq.title)}
         </p>
         <FAQS faqs={faqs} />
+        <FAQ content={true} title="Diversity Visa Timeline" />
+        <FAQ content={true} title="Diversity Visa FAQs" />
       </section>
 
-      {/* <section className="reviews">
+      <section className="reviews">
         <p className="subtitle" style={{ marginBottom: 100 }}>
-          <StarIcon /> {t(translations.reviews.title)}
+          <StarIcon /> Highly Recommend
           <div className="review-bgs">
-            <img width={176} height={83} src={reviewImg} alt="Review" />
+            <img width={176} height={83} src={"/reviewImg"} alt="Review" />
             <ReviewIcon />
           </div>
         </p>
-        <Reviews reviews={reviews} />
-      </section> */}
+        <section>
+          <div className="review">
+            <div className="top">
+              <div className="top-bottom">
+                <a href="/">
+                  <div>Yeonseo Choi</div>
+                </a>
+                <div
+                  style={{ display: "flex", justifyContent: "space-between" }}
+                >
+                  <div style={{ marginRight: 50 }}>1 Review</div>
+                  <div>
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M12 12C10.9 12 10 11.1 10 10C10 8.9 10.9 8 12 8C13.1 8 14 8.9 14 10C14 11.1 13.1 12 12 12ZM18 10.2C18 6.57 15.35 4 12 4C8.65 4 6 6.57 6 10.2C6 12.54 7.95 15.64 12 19.34C16.05 15.64 18 12.54 18 10.2ZM12 2C16.2 2 20 5.22 20 10.2C20 13.52 17.33 17.45 12 22C6.67 17.45 4 13.52 4 10.2C4 5.22 7.8 2 12 2Z"
+                        fill="#535353"
+                      />
+                    </svg>
+                    <span>KR</span>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-      {/* <section className="subscribe">
+            <div style={{ marginTop: 20, textAlign: "right" }}>
+              Mar 20, 2023
+            </div>
+
+            <svg
+              width="206"
+              height="37"
+              viewBox="0 0 206 37"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect width="36.6365" height="36.6365" fill="#00B87C" />
+              <path
+                d="M30.74 15.588L21.2821 15.588L18.3707 6.59521L15.442 15.588L5.98413 15.5707L13.6331 21.1352L10.7045 30.128L18.3535 24.5635L26.0025 30.128L23.091 21.1352L30.74 15.588Z"
+                fill="#FDFEFE"
+              />
+              <path
+                d="M23.7461 23.1671L23.0914 21.1343L18.3711 24.5625L23.7461 23.1671Z"
+                fill="#4BBD97"
+              />
+              <rect
+                x="42.1323"
+                width="36.6365"
+                height="36.6365"
+                fill="#00B87C"
+              />
+              <path
+                d="M72.8721 15.588L63.4142 15.588L60.5028 6.59521L57.5741 15.588L48.1162 15.5707L55.7652 21.1352L52.8365 30.128L60.4855 24.5635L68.1346 30.128L65.2231 21.1352L72.8721 15.588Z"
+                fill="#FDFEFE"
+              />
+              <path
+                d="M65.8779 23.1671L65.2233 21.1343L60.5029 24.5625L65.8779 23.1671Z"
+                fill="#4BBD97"
+              />
+              <rect
+                x="84.2642"
+                width="36.6365"
+                height="36.6365"
+                fill="#00B87C"
+              />
+              <path
+                d="M115.004 15.588L105.546 15.588L102.635 6.59521L99.7059 15.588L90.248 15.5707L97.8971 21.1352L94.9684 30.128L102.617 24.5635L110.266 30.128L107.355 21.1352L115.004 15.588Z"
+                fill="#FDFEFE"
+              />
+              <path
+                d="M108.01 23.1671L107.355 21.1343L102.635 24.5625L108.01 23.1671Z"
+                fill="#4BBD97"
+              />
+              <rect
+                x="126.396"
+                width="36.6365"
+                height="36.6365"
+                fill="#00B87C"
+              />
+              <path
+                d="M157.136 15.588L147.678 15.588L144.766 6.59521L141.838 15.588L132.38 15.5707L140.029 21.1352L137.1 30.128L144.749 24.5635L152.398 30.128L149.487 21.1352L157.136 15.588Z"
+                fill="#FDFEFE"
+              />
+              <path
+                d="M150.142 23.1671L149.487 21.1343L144.767 24.5625L150.142 23.1671Z"
+                fill="#4BBD97"
+              />
+              <rect
+                x="168.528"
+                width="36.6365"
+                height="36.6365"
+                fill="#00B87C"
+              />
+              <path
+                d="M199.268 15.588L189.81 15.588L186.899 6.59521L183.97 15.588L174.512 15.5707L182.161 21.1352L179.233 30.128L186.882 24.5635L194.531 30.128L191.619 21.1352L199.268 15.588Z"
+                fill="#FDFEFE"
+              />
+              <path
+                d="M192.274 23.1671L191.619 21.1343L186.899 24.5625L192.274 23.1671Z"
+                fill="#4BBD97"
+              />
+            </svg>
+
+            <div className="review-title">Highly Recommend</div>
+            <div className="review-text">
+              <span>
+                <p>
+                  Nikka was a very professional consultant, always ready to
+                  assist us each step of the way. I was reminded of everthing
+                  and I had to take with to the interview and also later to pick
+                  my passport and my son`s. Thanks once more, I certainly
+                  recommend the service.
+                </p>
+              </span>
+            </div>
+            <div className="review-exp">
+              Date of experience: February 28, 2023
+            </div>
+          </div>
+
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              marginTop: 130,
+            }}
+            className="review-btns"
+          >
+            <div>
+              <svg
+                width="16"
+                height="27"
+                viewBox="0 0 16 27"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                style={{ marginRight: 50 }}
+              >
+                <path
+                  d="M12.5228 24.2528L3.77484 15.5048C2.74172 14.4717 2.74172 12.7811 3.77484 11.748L12.5228 3"
+                  stroke-width="4.98658"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <svg
+                width="15"
+                height="27"
+                viewBox="0 0 15 27"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2.52295 24.1265L10.7906 15.4825C11.7671 14.4617 11.7671 12.7913 10.7906 11.7704L2.52295 3.12646"
+                  stroke-width="4.98662"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section className="subscribe">
         <h3> {t(translations.subscribe.title)}</h3>
 
         <div className="subs">
@@ -1318,139 +1585,94 @@ export function HomePage() {
             <div className="subs-text">
               {t(translations.subscribe.description)}
             </div>
-            {subs ? (
-              <span
-                className="subs-form"
-                style={{
-                  textAlign: 'center',
-                  color: '#4ac97d',
-                  position: 'relative',
-                  left: '50px',
+
+            <div className="subs-form">
+              <form
+                onSubmit={() => {
+                  setSubs(true);
                 }}
+                name="sub-1"
               >
-                You have successfully subscribed!'
-              </span>
-            ) : (
-              <div className="subs-form">
-                <form
-                  onSubmit={() => {
-                    setSubs(true);
-                  }}
-                  name="sub-1"
-                >
-                  <input required placeholder="your email here" type="email" />
-                  <button type="submit">
-                    {t(translations.subscribe.btnText)}{' '}
-                    <svg
-                      width="7"
-                      height="12"
-                      viewBox="0 0 7 12"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M1 11L5.59317 6.88384C6.13561 6.39773 6.13561 5.60228 5.59317 5.11617L1 1"
-                        stroke="white"
-                        stroke-width="2"
-                        stroke-miterlimit="10"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </button>
-                </form>
-              </div>
-            )}
+                <input required placeholder="your email here" type="email" />
+                <button type="submit">
+                  {t(translations.subscribe.btnText)}{" "}
+                  <svg
+                    width="7"
+                    height="12"
+                    viewBox="0 0 7 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1 11L5.59317 6.88384C6.13561 6.39773 6.13561 5.60228 5.59317 5.11617L1 1"
+                      stroke="white"
+                      stroke-width="2"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
+              </form>
+            </div>
           </div>
         </div>
-        {subs ? (
-          <span
-            className="subs-form subs-form-mobile"
+
+        <div className="subs-form subs-form-mobile">
+          <div
             style={{
-              textAlign: 'center',
-              color: '#4ac97d',
+              borderBottom: "2px #dbdbdb solid",
+              marginBottom: "25px",
             }}
+          />
+          <form
+            onSubmit={() => {
+              setSubs(true);
+            }}
+            name="sub-m"
           >
-            You have successfully subscribed!'
-          </span>
-        ) : (
-          <div className="subs-form subs-form-mobile">
-            <div
-              style={{
-                borderBottom: '2px #dbdbdb solid',
-                marginBottom: '25px',
-              }}
-            />
-            <form
-              onSubmit={() => {
-                setSubs(true);
-              }}
-              name="sub-m"
-            >
-              <input required placeholder="your email here" type="email" />
-              <button type="submit">
-                {t(translations.subscribe.btnText)}{' '}
-                <svg
-                  width="7"
-                  height="12"
-                  viewBox="0 0 7 12"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M1 11L5.59317 6.88384C6.13561 6.39773 6.13561 5.60228 5.59317 5.11617L1 1"
-                    stroke="white"
-                    stroke-width="2"
-                    stroke-miterlimit="10"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </button>
-            </form>
-          </div>
-        )}
-      </section> */}
-{/* 
+            <input required placeholder="your email here" type="email" />
+            <button type="submit">
+              {t(translations.subscribe.btnText)}{" "}
+              <svg
+                width="7"
+                height="12"
+                viewBox="0 0 7 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1 11L5.59317 6.88384C6.13561 6.39773 6.13561 5.60228 5.59317 5.11617L1 1"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </form>
+        </div>
+      </section>
+
       <section className="footer">
         <div className="footer-top">
-          <img alt="logo" onClick={() => navigate('/')} src={img} />
+          <img alt="logo" onClick={() => navigate("/")} src={img} />
 
           <div className="footer-links">
-            <a
-              target="_blank"
-              href="https://visa.govassist.com/terms-of-service"
-              rel="noreferrer"
-            >
+            <a target="_blank" href="/" rel="noreferrer">
               {t(translations.footer.link1)}
             </a>
-            <a
-              target="_blank"
-              href="https://visa.govassist.com/privacy-policy"
-              rel="noreferrer"
-            >
+            <a target="_blank" href="/" rel="noreferrer">
               {t(translations.footer.link2)}
             </a>
-            <a
-              href="https://visa.govassist.com/legal-disclaimer"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="/" target="_blank" rel="noreferrer">
               {t(translations.footer.link3)}
             </a>
-            <a
-              href="https://visa.govassist.com/refund-policy"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="/" target="_blank" rel="noreferrer">
               {t(translations.footer.link4)}
             </a>
-            <a
-              href="https://visa.govassist.com/terms-of-use
-"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="/" target="_blank" rel="noreferrer">
               {t(translations.footer.link5)}
             </a>
           </div>
@@ -1460,19 +1682,19 @@ export function HomePage() {
       </section>
       <section
         style={{
-          background: '#011527',
-          width: '100%',
+          background: "#011527",
+          width: "100%",
           height: 80,
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          color: 'white',
-          textAlign: 'center',
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          color: "white",
+          textAlign: "center",
         }}
         className="mobile-footer"
       >
         {t(translations.copyright.description)}
-      </section> */}
+      </section>
     </>
   );
 }

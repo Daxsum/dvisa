@@ -1,13 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 html {
-  overflow-x: hidden;  
+  overflow-x: hidden;
 }
 
 body {
   margin: 0 !important;
   padding: 0 !important;
-  font-family: 'Inter';
+  font-family: "Inter";
   box-sizing: border-box;
-  scroll-behavior: smooth; 
+  scroll-behavior: smooth;
 }
 
 .css-xsftfa {
@@ -15,14 +18,14 @@ body {
 }
 
 .renderer-components-field-wrapper active {
-  font-family: 'Inter' !important;
+  font-family: "Inter" !important;
 }
 
 button {
   transition: all 200ms;
 }
 
-html[lang='sp'] h1 br {
+html[lang="sp"] h1 br {
   display: none;
 }
 
@@ -210,7 +213,16 @@ h1 {
 /* Show the dropdown menu on hover */
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-
+.background-gif {
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("https://s3-alpha-sig.figma.com/img/3ae8/d26f/1a9c8d40ed894b16d341b07f657241d6?Expires=1698624000&Signature=qcp~R7445oL7SxfekvC~xwPtRBQUmcSrc~7L42~9zYNtW~3HsBBymyHNE7YTUDnNVHXXhXohHfZAABryqCHN5urgB0GeFU-QaefZsmPrDIo~J0zP17RX3gCv7qyYsVkGb1wKlAdDgkwF7Fni5RHF2pn3uAa7JINxkfq0UbgaziZ7-LO75jP95twavlusi0XotYnkRvZKCiK1v6OXJLMftjOObcdhrP57rB8JwmxO2E5L3dy3g4O03oIRK5pHmtF0ZJJO1U2kW4gDePy4rd1xx8EdUnJcWRjIu08uwYcrcIH8VKacl4SeqryBh1yJ0E7jZo0ba~E3i8rlL7urmAbxZg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4")
+    no-repeat center center fixed;
+  background-size: cover;
+}
 .nav-bottom {
   display: flex;
   justify-content: space-between;
@@ -243,7 +255,7 @@ h1 {
   margin: 7px 0;
 }
 
-.nav-form input[type='text'],
+.nav-form input[type="text"],
 .nav-form select {
   background: #f3f3f3;
   border: 0;
@@ -281,14 +293,14 @@ h1 {
   justify-content: space-between;
 }
 
-.nav-form input[type='text']::placeholder {
+.nav-form input[type="text"]::placeholder {
   word-wrap: break-word;
 }
 
-.nav-form input[type='text']:active,
-.nav-form input[type='text']:hover,
-.nav-form input[type='text']:focus,
-.nav-form input[type='text']:focus-visible {
+.nav-form input[type="text"]:active,
+.nav-form input[type="text"]:hover,
+.nav-form input[type="text"]:focus,
+.nav-form input[type="text"]:focus-visible {
   background: white;
   box-shadow: 0px 0px 4px #4ac97d !important;
   border-radius: 14px;
@@ -318,8 +330,8 @@ h1 {
 .vimeo-wrapper {
   bottom: 0;
   left: 0;
-  width: 100%;
-  height: 100vh;
+  width: screen;
+  height: screen;
   pointer-events: none;
   overflow: hidden;
   z-index: 1;
@@ -426,7 +438,7 @@ dd {
   cursor: pointer;
   text-align: center !important;
   text-decoration: none;
-  display:block !important;
+  display: block !important;
 }
 
 .apply-now:hover {
@@ -987,15 +999,15 @@ dd {
 }
 
 @media screen and (max-width: 660px) {
-  html[lang='sp'] .faq {
+  html[lang="sp"] .faq {
     padding-top: 200px;
   }
 
-  html[lang='fr'] .faq {
+  html[lang="fr"] .faq {
     padding-top: 120px;
   }
 
-  html[lang='en-US'] .faq {
+  html[lang="en-US"] .faq {
     padding-top: 120px;
   }
   .nav-text-mob {
